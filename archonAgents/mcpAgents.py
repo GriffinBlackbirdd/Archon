@@ -10,22 +10,20 @@ from agno.tools.mcp import MCPTools
 from mcp import StdioServerParameters
 
 
-async def runAgent(message: str) -> None:
-    # Set up the first MCP server (filesystem)
+async def mcpAgent(message: str) -> None:
+    root_dir = Path("/Users/eagle/Developer/archon/archonX/archon/docs/")
     server_params1 = StdioServerParameters(
         command="npx",
         args=[
             "-y",
             "@modelcontextprotocol/server-filesystem",
-            "/Users/eagle/Developer/archon/archon/docs",
+            str(root_dir),
         ],
     )
-
-    # Set up the second MCP server (hypothetical example, replace with actual second tool)
     server_params2 = StdioServerParameters(
         command="node",
         args=[
-            "/Users/eagle/Developer/archon/archon/mcp-cerebra-legal-server/build/index.js"
+            "/Users/eagle/Developer/archon/archonX/archon/mcp-cerebra-legal-server/build/index.js"
         ],
         disabled=False,
     )
@@ -53,8 +51,10 @@ async def runAgent(message: str) -> None:
         )
 
         # Run the agent
-        await agent.aprint_response(message, stream=True)
+        # await agent.aprint_response(message, stream = True)
+        result = await agent.arun(message)
+        print(result.content)
 
 
-if _name_ == "_main_":
-    asyncio.run(run_agent("I want a legal summary for the OQ agreement file."))
+if __name__ == "__main__":
+        asyncio.run(mcpAgent("I want a legal summary for the OQ agreement file."))
