@@ -1,0 +1,35 @@
+/* Additional fixes for Tailwind Typography in dark theme */
+
+/* Fix spacing */
+.prose {
+  max-width: none !important;
+}
+
+/* Fix nested list indentation */
+.prose ul ul,
+.prose ul ol,
+.prose ol ul,
+.prose ol ol {
+  margin-top: 0.25em !important;
+  margin-bottom: 0.25em !important;
+}
+
+/* Fix code blocks */
+.prose pre {
+  margin: 1em 0 !important;
+  padding: 1em !important;
+}
+
+/* Fix list spacing */
+.prose ul li,
+.prose ol li {
+  margin-top: 0.25em !important;
+  margin-bottom: 0.25em !important;
+}
+
+/* Fix triple asterisk rendering for legal content */
+.prose p:has(em strong em) {
+  text-align: center;
+  margin: 1.5em 0;
+  font-style: normal;
+}

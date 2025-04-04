@@ -1,0 +1,364 @@
+/* Markdown styling for Archon AI Legal Assistant */
+
+/* Main container for markdown content */
+.markdown-content {
+  line-height: 1.6;
+  font-size: 14px;
+  color: var(--text-primary);
+  font-family: "Montserrat", sans-serif;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+/* Headers */
+.markdown-content h1,
+.markdown-content h2,
+.markdown-content h3,
+.markdown-content h4,
+.markdown-content h5,
+.markdown-content h6 {
+  margin-top: 24px;
+  margin-bottom: 16px;
+  font-weight: 600;
+  line-height: 1.25;
+}
+
+.markdown-content h1:first-child,
+.markdown-content h2:first-child,
+.markdown-content h3:first-child,
+.markdown-content h4:first-child,
+.markdown-content h5:first-child,
+.markdown-content h6:first-child {
+  margin-top: 0;
+}
+
+.markdown-content h1 {
+  font-size: 1.6em;
+  color: var(--primary-neon);
+  padding-bottom: 0.3em;
+  border-bottom: 1px solid rgba(0, 229, 255, 0.2);
+}
+
+.markdown-content h2 {
+  font-size: 1.4em;
+  color: var(--text-primary);
+  padding-bottom: 0.3em;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.markdown-content h3 {
+  font-size: 1.2em;
+  color: var(--text-primary);
+}
+
+.markdown-content h4,
+.markdown-content h5,
+.markdown-content h6 {
+  font-size: 1.1em;
+  color: var(--text-secondary);
+}
+
+/* Paragraphs and text */
+.markdown-content p {
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+.markdown-content strong {
+  font-weight: 600;
+  color: var(--primary-neon);
+}
+
+.markdown-content em {
+  font-style: italic;
+  opacity: 0.9;
+}
+
+/* Links */
+.markdown-content a {
+  color: var(--primary-neon);
+  text-decoration: none;
+  border-bottom: 1px dotted rgba(0, 229, 255, 0.4);
+  transition: all 0.2s ease;
+}
+
+.markdown-content a:hover {
+  text-shadow: 0 0 5px rgba(0, 229, 255, 0.3);
+  border-bottom: 1px solid var(--primary-neon);
+}
+
+/* Lists */
+.markdown-content ul,
+.markdown-content ol {
+  margin-top: 0;
+  margin-bottom: 16px;
+  padding-left: 2em;
+}
+
+.markdown-content ul {
+  list-style-type: disc;
+}
+
+.markdown-content ol {
+  list-style-type: decimal;
+}
+
+.markdown-content li + li {
+  margin-top: 0.25em;
+}
+
+/* Nested lists */
+.markdown-content ul ul,
+.markdown-content ul ol,
+.markdown-content ol ol,
+.markdown-content ol ul {
+  margin-top: 0.25em;
+  margin-bottom: 0;
+}
+
+.markdown-content li > ul,
+.markdown-content li > ol {
+  margin-top: 0.25em;
+  margin-bottom: 0;
+}
+
+/* Code blocks */
+.markdown-content pre {
+  margin-top: 0;
+  margin-bottom: 16px;
+  padding: 16px;
+  overflow: auto;
+  font-size: 0.9em;
+  line-height: 1.45;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+  border: 1px solid rgba(0, 229, 255, 0.1);
+  box-shadow: inset 0 1px 20px rgba(0, 0, 0, 0.3);
+  position: relative;
+}
+
+.markdown-content code {
+  font-family: "Courier New", Courier, monospace;
+  padding: 0.2em 0.4em;
+  margin: 0;
+  font-size: 0.85em;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 3px;
+}
+
+.markdown-content pre code {
+  background-color: transparent;
+  padding: 0;
+  margin: 0;
+  font-size: 100%;
+  word-break: normal;
+  white-space: pre;
+  overflow: visible;
+  line-height: inherit;
+  word-wrap: normal;
+  display: block;
+}
+
+/* Code copy button */
+.code-copy-btn {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background-color: rgba(0, 229, 255, 0.2);
+  color: var(--primary-neon);
+  border: none;
+  border-radius: 4px;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  opacity: 0.7;
+  transition: opacity 0.2s ease;
+}
+
+.code-copy-btn:hover {
+  opacity: 1;
+}
+
+/* Horizontal rule */
+.markdown-content hr {
+  height: 1px;
+  padding: 0;
+  margin: 24px 0;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 0;
+}
+
+/* Blockquotes */
+.markdown-content blockquote {
+  padding: 0 1em;
+  margin-left: 0;
+  margin-right: 0;
+  color: var(--text-secondary);
+  border-left: 3px solid var(--royal-purple);
+  background-color: rgba(114, 9, 183, 0.1);
+  padding: 1em;
+  border-radius: 0 8px 8px 0;
+}
+
+.markdown-content blockquote > :first-child {
+  margin-top: 0;
+}
+
+.markdown-content blockquote > :last-child {
+  margin-bottom: 0;
+}
+
+/* Images */
+.markdown-content img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Tables */
+.markdown-content table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 16px;
+  overflow: auto;
+  display: block;
+}
+
+.markdown-content table th,
+.markdown-content table td {
+  padding: 8px 13px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.markdown-content table th {
+  font-weight: 600;
+  background-color: rgba(0, 229, 255, 0.1);
+}
+
+.markdown-content table tr {
+  background-color: rgba(255, 255, 255, 0.02);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.markdown-content table tr:nth-child(2n) {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+/* Toast notification system */
+.toast-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 9999;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 10px;
+}
+
+.toast {
+  padding: 10px 20px;
+  border-radius: 8px;
+  color: var(--text-primary);
+  font-size: 14px;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.3s ease;
+  max-width: 300px;
+}
+
+.toast.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.toast.success {
+  background-color: rgba(0, 229, 255, 0.2);
+  border-left: 3px solid var(--primary-neon);
+}
+
+.toast.error {
+  background-color: rgba(255, 50, 50, 0.2);
+  border-left: 3px solid #ff5050;
+}
+
+.toast.warning {
+  background-color: rgba(255, 193, 7, 0.2);
+  border-left: 3px solid #ffc107;
+}
+
+/* Syntax highlighting */
+.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: transparent;
+  color: var(--text-primary);
+}
+
+.hljs-comment,
+.hljs-quote {
+  color: #8a8a8a;
+  font-style: italic;
+}
+
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-subst {
+  color: #f638dc;
+  font-weight: bold;
+}
+
+.hljs-literal,
+.hljs-number,
+.hljs-tag .hljs-attr,
+.hljs-template-variable,
+.hljs-variable {
+  color: #00e5ff;
+}
+
+.hljs-doctag,
+.hljs-string {
+  color: #e6c200;
+}
+
+.hljs-section,
+.hljs-selector-id,
+.hljs-title {
+  color: #f638dc;
+  font-weight: bold;
+}
+
+.hljs-subst {
+  font-weight: normal;
+}
+
+.hljs-type,
+.hljs-class .hljs-title {
+  color: #7209b7;
+  font-weight: bold;
+}
+
+.hljs-tag,
+.hljs-name {
+  color: #00e5ff;
+  font-weight: normal;
+}
+
+.hljs-attribute {
+  color: #e6c200;
+  font-weight: normal;
+}
+
+.hljs-link {
+  color: #00e5ff;
+  text-decoration: underline;
+}
+
+.hljs-symbol {
+  color: #f638dc;
+}

@@ -58,5 +58,7 @@ async def mcpAgent(message: str) -> None:
         return result.content
 
 
+# mcpAgent("I want a legal summary for the OQ agreement file.")
+
 # if __name__ == "__main__":
 #     asyncio.run(mcpAgent("I want a legal summary for the OQ agreement file."))

@@ -1,0 +1,257 @@
+/* Additional styles for enhanced functionality */
+
+/* File upload display */
+.file-display-area {
+  display: none;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 10px;
+  max-width: 100%;
+  overflow-x: auto;
+  padding: 5px 0;
+}
+
+.file-item {
+  display: flex;
+  align-items: center;
+  padding: 6px 10px;
+  background-color: rgba(0, 229, 255, 0.1);
+  border-radius: 8px;
+  border: 1px solid rgba(0, 229, 255, 0.2);
+  max-width: 250px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.file-item i {
+  color: var(--primary-neon);
+  margin-right: 8px;
+  font-size: 14px;
+}
+
+.file-item .file-name {
+  font-size: 12px;
+  color: var(--text-secondary);
+  margin-right: 8px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.file-item .file-remove {
+  background: none;
+  border: none;
+  color: var(--text-muted);
+  cursor: pointer;
+  transition: color 0.2s ease;
+  padding: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+}
+
+.file-item .file-remove:hover {
+  color: var(--primary-neon);
+}
+
+/* Enhanced Markdown styling for AI responses */
+.message-content a {
+  color: var(--primary-neon);
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.message-content a:hover {
+  text-decoration: underline;
+  text-shadow: 0 0 5px rgba(0, 229, 255, 0.3);
+}
+
+.message-content code {
+  font-family: "Courier New", monospace;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 2px 4px;
+  border-radius: 4px;
+  font-size: 0.9em;
+}
+
+.message-content pre {
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  border-radius: 8px;
+  overflow-x: auto;
+  margin: 10px 0;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  position: relative;
+}
+
+.message-content pre code {
+  background-color: transparent;
+  padding: 0;
+  display: block;
+  white-space: pre;
+  font-family: "Courier New", monospace;
+  font-size: 0.9em;
+  line-height: 1.5;
+  color: var(--text-primary);
+}
+
+/* Headers styling */
+.message-content h1,
+.message-content h2,
+.message-content h3,
+.message-content h4 {
+  margin-top: 16px;
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+.message-content h1 {
+  font-size: 1.5em;
+  color: var(--primary-neon);
+  border-bottom: 1px solid rgba(0, 229, 255, 0.2);
+  padding-bottom: 5px;
+}
+
+.message-content h2 {
+  font-size: 1.3em;
+  color: var(--text-primary);
+}
+
+.message-content h3 {
+  font-size: 1.1em;
+  color: var(--text-primary);
+}
+
+.message-content h4 {
+  font-size: 1em;
+  color: var(--text-secondary);
+}
+
+/* Text formatting */
+.message-content strong {
+  font-weight: 600;
+  color: var(--primary-neon);
+}
+
+.message-content em {
+  font-style: italic;
+  opacity: 0.9;
+}
+
+/* Improved paragraph spacing */
+.message-content p {
+  margin-bottom: 8px;
+  line-height: 1.6;
+}
+
+.message-content p:last-child {
+  margin-bottom: 0;
+}
+
+/* Enhanced list styling */
+.message-content ul,
+.message-content ol {
+  margin-left: 20px;
+  margin-bottom: 12px;
+  padding-left: 0;
+}
+
+.message-content ul {
+  list-style-type: none;
+}
+
+.message-content ol {
+  list-style-type: decimal;
+  padding-left: 20px;
+}
+
+.message-content ul li {
+  position: relative;
+  padding-left: 20px;
+  margin-bottom: 8px;
+  line-height: 1.5;
+}
+
+.message-content ol li {
+  margin-bottom: 8px;
+  line-height: 1.5;
+  padding-left: 5px;
+}
+
+.message-content ul li:before {
+  content: "•";
+  color: var(--primary-neon);
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+/* Add space between list groups */
+.message-content ul + p,
+.message-content ol + p {
+  margin-top: 16px;
+}
+
+/* Loading indicator improvements */
+.message-typing {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  padding: 10px;
+}
+
+.message-typing .dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: linear-gradient(
+    135deg,
+    var(--primary-neon),
+    var(--secondary-neon)
+  );
+  animation: typingAnimation 1.5s infinite ease-in-out;
+  box-shadow: 0 0 5px rgba(0, 229, 255, 0.3);
+}
+
+/* Tool button active state for file attachment */
+.tool-btn.active-attachment {
+  background-color: rgba(0, 229, 255, 0.2);
+  color: var(--primary-neon);
+  box-shadow: 0 0 10px rgba(0, 229, 255, 0.3);
+}
+
+/* Error message styling */
+.message.system.error .message-content {
+  background-color: rgba(255, 50, 50, 0.1);
+  border: 1px solid rgba(255, 50, 50, 0.2);
+}
+
+/* Success message styling */
+.message.system.success .message-content {
+  background-color: rgba(50, 255, 50, 0.1);
+  border: 1px solid rgba(50, 255, 50, 0.2);
+}
+
+/* Chat input container modifications for file display */
+.chat-input-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.chat-input-wrapper {
+  position: relative;
+}
+
+/* Responsive improvements for file uploads */
+@media (max-width: 768px) {
+  .file-item {
+    max-width: 100%;
+  }
+
+  .file-display-area {
+    flex-direction: column;
+    width: 100%;
+  }
+}

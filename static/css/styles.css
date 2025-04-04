@@ -39,7 +39,13 @@
   --header-height: 80px;
   --border-radius: 12px;
 }
+navigation ul li .fa-clock {
+  color: var(--primary-neon);
+}
 
+.navigation ul li.active .fa-clock {
+  text-shadow: var(--neon-glow);
+}
 @keyframes pulseAnimation {
   0%,
   100% {

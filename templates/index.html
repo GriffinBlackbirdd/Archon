@@ -16,6 +16,101 @@
       rel="stylesheet"
       href="{{ url_for('static', path='/css/styles.css') }}"
     />
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', path='/css/enhancement.css') }}"
+    />
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', path='/css/tailwind-fixes.css') }}"
+    />
+
+    <!-- Tailwind CSS and Typography plugin -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            typography: {
+              DEFAULT: {
+                css: {
+                  color: "#ffffff",
+                  a: {
+                    color: "#00e5ff",
+                    "&:hover": {
+                      color: "#f638dc",
+                    },
+                  },
+                  h1: {
+                    color: "#00e5ff",
+                  },
+                  h2: {
+                    color: "#ffffff",
+                  },
+                  h3: {
+                    color: "#ffffff",
+                  },
+                  h4: {
+                    color: "#b8c2cc",
+                  },
+                  strong: {
+                    color: "#00e5ff",
+                  },
+                  code: {
+                    color: "#e6c200",
+                    backgroundColor: "rgba(0, 0, 0, 0.2)",
+                    padding: "0.2em 0.4em",
+                    borderRadius: "0.25rem",
+                  },
+                  pre: {
+                    backgroundColor: "rgba(0, 0, 0, 0.3)",
+                    code: {
+                      backgroundColor: "transparent",
+                      padding: 0,
+                    },
+                  },
+                  blockquote: {
+                    color: "#b8c2cc",
+                    borderLeftColor: "#7209b7",
+                    backgroundColor: "rgba(114, 9, 183, 0.1)",
+                    borderRadius: "0 0.5rem 0.5rem 0",
+                  },
+                  ul: {
+                    li: {
+                      "&::marker": {
+                        color: "#00e5ff",
+                      },
+                    },
+                  },
+                  ol: {
+                    li: {
+                      "&::marker": {
+                        color: "#00e5ff",
+                      },
+                    },
+                  },
+                },
+              },
+            },
+          },
+        },
+      };
+    </script>
+    <!-- Add Marked.js for markdown parsing -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
+    <!-- Add Highlight.js for code syntax highlighting -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/atom-one-dark.min.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
+
+    <!-- Add our custom markdown styling -->
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', path='/css/markdown.css') }}"
+    />
   </head>
   <body>
     <!-- Background Elements -->
@@ -54,25 +149,12 @@
               <i class="fas fa-bolt"></i>
               <span>Quick Summary (Experimental)</span>
             </li>
+            <li>
+              <i class="fas fa-clock"></i>
+              <span>Legal Clock</span>
+            </li>
           </ul>
         </nav>
-
-        <div class="user-profile">
-          <div class="user-avatar">
-            <img
-              src="/static/img/avatar.png"
-              alt="User Avatar"
-              onerror="this.src='/static/img/default-avatar.png'"
-            />
-          </div>
-          <div class="user-info">
-            <div class="user-name">Jane Doe, Esq.</div>
-            <div class="user-status">Premium Account</div>
-          </div>
-          <div class="user-menu">
-            <i class="fas fa-ellipsis-vertical"></i>
-          </div>
-        </div>
       </aside>
 
       <!-- Main Content -->
@@ -175,5 +257,7 @@
     </div>
 
     <script src="{{ url_for('static', path='/js/script.js') }}"></script>
+    <!-- Markdown renderer script -->
+    <script src="{{ url_for('static', path='/js/markdownRenderer.js') }}"></script>
   </body>
 </html>
