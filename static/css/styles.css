@@ -46,6 +46,56 @@ navigation ul li .fa-clock {
 .navigation ul li.active .fa-clock {
   text-shadow: var(--neon-glow);
 }
+
+/* Lady Justice Styling */
+.lady-justice-container {
+  position: relative;
+  margin-top: auto;
+  margin-bottom: 24px;
+  width: 100%;
+  height: 320px; /* Increased from 256px */
+  overflow: hidden;
+  /* Removed border-radius */
+}
+
+.lady-justice-image {
+  position: absolute;
+  inset: 0;
+  background-image: url("https://wtxkrslssgzzxgdahbzd.supabase.co/storage/v1/object/public/images//Screenshot%202025-04-05%20at%2001.25.20.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.lady-justice-overlay {
+  position: absolute;
+  inset: 0;
+  backdrop-filter: blur(0px);
+  background: linear-gradient(to bottom, transparent, rgba(10, 19, 45, 0.9));
+}
+
+/* Removed lady-justice-border class entirely */
+
+.lady-justice-quote {
+  position: absolute;
+  bottom: 16px;
+  left: 16px;
+  right: 16px;
+  text-align: center;
+}
+
+.quote-text {
+  color: var(--primary-neon);
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 300;
+  text-shadow: 0 0 5px rgba(0, 229, 255, 0.3);
+}
+
+.quote-author {
+  color: var(--text-secondary);
+  font-size: 12px;
+  margin-top: 4px;
+}
 @keyframes pulseAnimation {
   0%,
   100% {
@@ -254,7 +304,7 @@ button {
   animation: gridPulse 8s infinite ease-in-out;
 }
 
-.blur-overlay {
+/* .blur-overlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -267,7 +317,7 @@ button {
       transparent 70%
     ),
     radial-gradient(circle at 70% 70%, rgba(0, 229, 255, 0.15), transparent 70%);
-}
+} */
 
 /* Floating Elements Animation */
 .floating-element {

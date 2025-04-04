@@ -1,0 +1,1749 @@
+agent_data:
+  agent_id: debd6d55-e72e-40fe-b389-583e2534b0d2
+  model:
+    id: gemini-2.0-flash
+    name: Gemini
+    provider: Google
+  name: Litigation Probability Assesor Agent
+agent_id: debd6d55-e72e-40fe-b389-583e2534b0d2
+created_at: 1743798765
+extra_data: null
+memory:
+  create_session_summary: false
+  create_user_memories: false
+  messages:
+  - content: 'You are a specialized legal assistant focused on litigation probability
+      assessment
+
+
+      <instructions>
+
+      - Evaluate strengths and weaknesses of potential litigation cases.
+
+      - Estimate probability of success based on facts provided and applicable law.
+
+      - Identify key legal hurdles that might affect case outcomes.
+
+      - Suggest evidence gathering strategies to strengthen case positions.
+
+      - Highlight precedent cases with similar fact patterns and their outcomes.
+
+      - Assess procedural and jurisdictional factors that may impact case success.
+
+      - Provide balanced analysis of both favorable and unfavorable case aspects.
+
+      </instructions>
+
+
+      <additional_information>
+
+      - Use markdown to format your answers.
+
+      </additional_information>'
+    created_at: 1743798755
+    from_history: false
+    role: system
+    stop_after_tool_call: false
+  - content: "File Content:\n -1- \n \n  \n \n \nCONSULTANCY SERVICES AGREEMENT  \n\
+      \ \n \n \n \nOQ TRADING LIMITED  \n \nAnd \n \nCONTINENTAL TRADERS PTE LIMITED\
+      \  \n \nrelating to the provision of Fertilizer representation  \n  \n \n \n\
+      \ \n \n -2- \n \n THIS CONSULTANCY SERVICES AGREEMENT  (this \u201C Agreement\
+      \ \u201D) is dated     February \n2022 and is made  between:  \n(1) OQ TRADING\
+      \ LIMITED , a company limited by shares incorporated in accordance with the\
+      \ \nlaws of the Dubai International Finance Centre with License Number 0130\
+      \ and having its \nprincipal place of business a t Level 7, Precinct Building\
+      \ 6 (Legatum P laza), Dubai \nInternational Financial Centre, Dubai, United\
+      \ Arab Emirates (\u201C OQ\u201D); and  \n(2) CONTINENTAL TRADERS PTE LIMITED\
+      \ . (\u201CConsultant \u201D) a company limited by \nshares incorporated in\
+      \ accordance with the laws of the SINGAPORE  and having office at  80 \nROBINSON\
+      \ ROAD, #15 -02, SINGAPORE  -068898   \neach a \u201C Party \u201D and, together,\
+      \ the \u201C Parties \u201D. \nWHEREAS : \n(A) OQ is desirous of selling N,\
+      \ P205 and K20  Fertilizers into India and wishes to engage the \nConsultant\
+      \ as its Fertilizer representative in India.  \n(B) This Agreement sets out\
+      \ the b asis on which the Consultant will assist O Q for the purposes \nspecified\
+      \ above . \nDEFIN ITIONS AND INTERPRETATION  \nDefinitions  \nIn this Agreement:\
+      \   \n\u201CAffiliate \u201D means, in respect of a Party, any person or entity\
+      \ that (directly or indirectly) \ncontrols, is controlled by, or is under common\
+      \ control with such Party, and the term \u201C control \u201D \nmeans : \n(a)\
+      \ the ownership of 50% or more of voting share capital or other v oting securities\
+      \ ; \n(b) the possession of 50% or more of the voting or other rights to appoint\
+      \ or elect \ndirectors or m anagement ; or \n(c) the power to direct or cause\
+      \ the direction of management and affair s.   \n\u201CAnti -Bribery Laws \u201D\
+      \ means, with respect to a Party, the la ws relating to combating bribery, \n\
+      corruption and money -laundering in any jurisdiction which are applicable to\
+      \ that Party.  \n\u201CConfidential Information \u201D means:  \n(a) the existence\
+      \ and terms of this Agree ment.  \n(b) any information (in whatever nature or\
+      \ form) disclosed to  the Consultant by or on \nbehalf of OQ relating to the\
+      \ Services, OQ, any of its Affiliates or any aspect of their  \nrespective businesses.\
+      \  \n(c) any information acquired by the Consultant by observation  at OQ\u2019\
+      s premises or the \npremises of any representative of OQ; and \n -3- \n \n (d)\
+      \ copies, analyses, compilations, studies and other documents which contain\
+      \ or are \notherwise based on or derived from (in whole or in part) any of the\
+      \ aforesaid \ninformation (but only to the e xtent of the Confidential Information\
+      \ contained therein).  \n\u201CEffective Date \u201D means 3rd February 2022\
+      \  \n\u201CExpenses \u201D has the meaning given to it in Clause 3.1.  \n\u201C\
+      Fee\u201D has the meaning given to it in Clause Error! Reference source not\
+      \ found. . \n\u201CProceedings \u201D has the meaning given to it in Clause\
+      \ 0. \n\u201CProducts \u201D means N, P205 and K20 Fertili zers.   \n\u201C\
+      Public Official \u201D means any p erson holding a legislative, administrative\
+      \ or judicial office, \nincluding : \n(a) any p erson employed by or acting\
+      \ for a public agency, a public enterprise or p ublic \ninternational organiza\
+      \ tion; \n(b) any p erson who otherwise exercises a public function for or on\
+      \ behalf of a country or \nterritory ;  \n(c) any p erson who performs public\
+      \ duties or functions for any country or government or to \nor for the use or\
+      \ benefit of any poli tical party .  \n(d) any p erson  acting in an official\
+      \ ca pacity for or on behalf of any political party or any \ncandidate for political\
+      \ office or political party official ; or \n(e) any close family member of any\
+      \ of the foregoing.  \n\u201CRepresentatives \u201D means, with respect to a\
+      \ Party, any of its Affiliat es, employees, direct ors, \ncontractors, sub -contractors,\
+      \ agents, representatives, service providers and other similar \npersons.  \n\
+      \u201CServices \u201D means general brokering and introduction services to be\
+      \ provided by the \nConsultant pursuant  to this Agreement which  shall include,\
+      \ without l imitation:  \n(a) negotiation of OQ sales in accordance with direct\
+      \ instructions on price and payment \nterms;  \n(b) organization of necessary\
+      \ meetings / visits and assistance in seamless communication \nbetween OQ and\
+      \ any c ounterparties or potential counterparties;  \n(c) assisting OQ for forward\
+      \ planning on shipments including documentary requirements;  \n(d) pursuance\
+      \ of counterparties for timely settlement of demurrage claims;  \n(e) undertaking\
+      \ business development opportunities in India as required and advised by OQ.\
+      \ \n\u201CTerm \u201D has the meaning given to it in Clause 0. \n -4- \n \n\
+      \ Interpretation  \nIn this Agreement:  \nwords and terms importing the plural\
+      \ include the singular and vice versa.  \nword s importing gender include all\
+      \ genders;  \nreferences to any applica ble law, document or agreement, including\
+      \ this Agreement, \nshall be deemed to include references to such applicable\
+      \ law, document or agreement \nas amended, modified, supplemented or replaced\
+      \ fr om time to time in accordance \nwith its terms and (where applicabl e)\
+      \ subject to compliance with the requirements set \nout herein;  \na reference\
+      \ t o any Party shall include its successors and permitted assigns;  \nthe words\
+      \ \u201Cinclude\u201D, \u201Cincludes\u201D and \u201Cincluding\u201D s hall\
+      \ be deemed to be followed by \nthe ph rase \u201Cwithout limitation\u201D;\
+      \  and \neach of the Annexes hereto shall form an integral part of this Agreement\
+      \ and shall \nhave effect as if set out herein.  \nPROVISION OF SERVICES  \n\
+      Appointment of Consultant to Provide the Services  \nOQ hereby appoints the\
+      \ Consultant to  provide the Services and the Consultant accepts such \nappointment,\
+      \ all in accordance with the terms and  conditions of this Agreement.  The \n\
+      appointment of the Consultant shall in no way restrict the right of OQ t o conduct\
+      \ business \nwith any counterparty in its absolute discretion.  \nStandard of\
+      \ Care  \nThe Consultant , in performing the Services,  shall exercise the reasonable\
+      \ skill, care and \ndiligence to be expected of a qualified and reasonable person\
+      \ performing service s of the same \ncomplexity and of a similar nat ure to\
+      \ the Services.  \nSubco ntracting  \nThe Consultant may not subcontract or\
+      \ delegate the provision of th e Services to any third \nparty without the prior\
+      \ written consent of OQ.  Notwithstanding any consent given by  OQ, the \nConsultant\
+      \ shall remain liable for t he provision of the Servic es in accordance with\
+      \ this \nAgreement.  \n \nTerm  \nThis Agreement shall come into full force\
+      \ and e ffect on the Effective D ate and sh all continue \nfor initially a trial\
+      \  period of three (3) months (the \u201C Term \u201D).  The Parties may agree\
+      \ to ext end \nthe Term and shall neg otiate in good faith to agree the terms\
+      \ and conditions of any such \nextension.  \n -5- \n \n FEES AND EXPENSES  \n\
+      Fees  \nIn consideration for the provision of the Services during the Term,\
+      \ OQ shall pa y the \nConsultant : \n(a) a agency  fee of United State s Dollars\
+      \ Zero Point Seven  Five per metric ton (USD \n0.75/mt.) on all tons sold by\
+      \ OQ under the Government of Indi a\u2019s (or Nominated \nAgency) Urea Tenders\
+      \  (the \u201CTender\u201D)  in the event that OQ is awarded the Tender (the\
+      \ \n\u201CFees\u201D); and \n(b) the reasonable costs of any conference participati\
+      \ on and/or client visits including \naccommodation and transportation costs\
+      \ agai nst receipt s/invoices of actual costs \nincurred  (the \u201CExpenses\u201D\
+      ).  \n  \nThe Fees shall only become payable by OQ once OQ receives payment\
+      \ for the relevant sal e \ntransaction(s). For the avoidance of doubt, if OQ\
+      \ is not awarded the Tender, no Fees shall be \npayable to the Consultant. \
+      \  \n \nNon-payment or delayed payment of any invo ice due by an OQ counterparty\
+      \ under a sale \ncontract shall not entitle OQ to set off or di scount the Fees\
+      \ due to the  Consultant pursuant to \nthis Agreement. The Consultant will,\
+      \ however, use bes t endeavors to assist OQ in the \nrecovery of amounts due\
+      \ from con tractual counterparties.  \nTaxes  \nAll Fees  and Expenses  shall\
+      \ be inclusive of any and all t axes, duties, imposts, lev ies of \nwhatever\
+      \ nature imposed or levied in respect of the Fees/Expenses , the payment of\
+      \ the \nFees/Expenses and/or the Services . \nInvoicing  \nThe Consultant shall\
+      \ only be entitled to issue an invoice pursuant to this Agreement  once OQ \
+      \ \nhas received payment for the relevant sale transaction(s).  Payment shall\
+      \ be made within thirty \n(30) d ays of OQ\u2019s receipt of an invoice from\
+      \ the Consultant.  All payments shall be made to a \nbank account in the nam\
+      \ e of the Consultant, with the  details of s uch bank account to be \nincluded\
+      \ on the relevant invoice .   \n \nDisputed Invoices  \nIf there is a dispute\
+      \ over any amount payable under this Clause 0, OQ shall pay the \nundisputed\
+      \ amount in accordance with Clauses Error! Reference source not found.  and\
+      \ 0 \npending resolution of the dispute.  \nSet Off  \nOQ shall be entitled\
+      \ to set off any amounts owing by the Consultant to OQ pursuant to this \nAgreement\
+      \ (or otherwise owing to OQ) agains t any amounts  owing by OQ to the Consultant\
+      \ \npursuant t o this Agreement.  \n -6- \n \n LIABILITY  \nConsultant\u2019\
+      s Responsibilities  \nOQ shall not be liable for damage to or loss of the Consultant\u2019\
+      s or its Representatives\u2019 \nproperty and/or for sickness, injury or death\
+      \ of the Consultant\u2019s  officers, employees or  \nRepresentatives  arising\
+      \ out of or in rela tion to the performance of the Services.   The \nConsultant\
+      \ shall be responsible for taking out adequate insurance for loss or damage\
+      \ to its \nproperty and for sickness, injury or deat h of the Cons ultant\u2019\
+      s officers, employees and \nRepresen tatives during or in connection with the\
+      \ provision of the Services.  \nThe Consultant will not be liable for any demurrage\
+      \ payments from sale contract \ncounterparties.  In the event of any non -paid\
+      \ or delay ed demurrage payments, OQ will not be \nentitled to set off or discount\
+      \ the Fee s payable to the Consultant on this basis. The Consultant \nwill use\
+      \ best endeav ours to assist OQ in recovering any delayed or non -paid demurrage\
+      \ from \nsale contract counterparties.  \nConsequential Losses  \nNeither Party\
+      \ shall be liable to the other Party in respect of or any indirect or consequential\
+      \ \nloss or damage incurred pursuant to this Agreement.  \nREPRESENTATIONS AND\
+      \ WARRANTIES  \nRepresentations and Warranties of the Consultant  \nThe Consultant\
+      \ represents and warrants to OQ that, as of the date of this Agreement:  \n\
+      it possesses the necessary skill, experience and resources to perform its obligations\
+      \ in \naccordance with the terms and conditions of this Agreement;  \nit is\
+      \ duly organ ised and validly existing under the laws of its jurisdiction of\
+      \ \nincorporation and is duly qualified to do business under the laws of such\
+      \ jurisdiction;  \nit has full power and authority to execute and deliver, and\
+      \ to incur and perform its \nobligations under, this Agr eement; and  \nthis\
+      \ Agreement has been duly authorised execu ted and delivered by it  and constitutes\
+      \ \nits valid and legally binding agreement enforceable in accordance with its\
+      \ terms.  \nTERMINATION  \nRight to Terminate Without Cause  \nOQ may terminate\
+      \ this Agreemen t on not less than seven (7) days prior written notice to  the\
+      \ \nConsultant  at any time without cause and without the need to give any reason\
+      \ for such \ntermination.  In the event of such termination, OQ shall pay the\
+      \ Consultant a ll Fees  and \nExpenses  properly a ccrued and payable in accordance\
+      \ with the terms of this A greement \nwithin thirty (30) days of such termination.\
+      \  \n \n \n -7- \n \n Termination by OQ  \nOQ may terminate this Agreement with\
+      \ immediate effect by issuing written notice of \ntermination to the Consultant\
+      \ in the event t hat the Consultant : \n \n(a) commits a breach of any of its\
+      \ ob ligations under this Agreement and does not remedy \nsuch breach within\
+      \ fifteen  (15) days of receipt of a notice requiring remedy from OQ ; \n \n\
+      (b) or its Representatives, commits a breach of any applicable law i n connection\
+      \ with t he \nprovision of the Services;  \n \n(c) is, in the opinion of OQ\
+      \ ( acting reasonably), negligent or incompetent in perfor mance \nof the Services;\
+      \  \n \n(d) commits any fraud or act of dishonesty or acts in a manner which,\
+      \ in the opinion of \nOQ (acting reaso nably), brings or is likely to bring\
+      \ the Consultant, O Q or any \nAffiliate of OQ into disrepute or is materially\
+      \ adverse to the inter ests of OQ or any of \nits Affiliates; or  \n \n(e) is\
+      \ or is declared to be bankrupt or insolvent under any applicable law or becomes\
+      \ th e \nsubject of liquidation, winding -up or dissolution pr oceedings under\
+      \ any app licable \nlaw. \n \nConsequences of Termination  for Consulta nt Default\
+      \  \nIn the event of  termination by OQ pursuant to Clause 0: \n \n(a) OQ shall\
+      \  pay the Consultant the amount specified in Clause 0 above within thirty (30)\
+      \ \ndays of such termination ; and  \n \n(b) OQ shall be entitled to claim damages\
+      \ from the Consul tant a s a result of such \ntermination and to set off any\
+      \ such amount against amounts o wing to the Consultant, \nwhether pursuant to\
+      \ Clause  0(a) or otherwise.  \n \nTermination by the Consultant   \nThe Consultant\
+      \ may terminate this Agreement with immediate effect by issuing written notice\
+      \ \nof termination to OQ in the event that:  \n \n(a) OQ commits a breach of\
+      \ any of its obligations under this Agreement and does not \nremedy such breach\
+      \ within fifteen ( 15) days of receipt of a notice requiring remedy \nfrom the\
+      \ Consultant; or  \n \n(b) OQ is or is declared to be ban krupt or insolven\
+      \ t under any applicable law or b ecomes \nthe subject of liquidation, winding\
+      \ -up or dissolution proc eedings under any applicable \nlaw. \n \nConsequences\
+      \ of OQ Default  \nIn the event of termination  by the Consultant pursuant to\
+      \ Clause 0, OQ  shall pay the \nConsultant the amounts specified in Clause 0\
+      \ above  within thirty (30) days of such \ntermination.  \n -8- \n \n Effect\
+      \ of Termination  \nThe termination of this Agreement shall be without prejudice\
+      \ to the accrued rights and \nobligations of the Parties hereun der on and prior\
+      \ to any such termination.  Other tha n as \nprovided for in this Clause 0 and\
+      \ Clause 0, neither Party shall have any liabilit y (at law, in \nequity or\
+      \ otherwise) to the other by reason of or in connection with the  termination\
+      \ of this \nAgreement .  Upon termination of this Agreement for any reason,\
+      \ the Consultant shall:  \ncease the provision of the Services;  \nimmediately\
+      \ deliver to O Q all property of O Q in its possession or und er its control\
+      \ (including \nthat held by any Representative);  \nirretrievably delete or\
+      \ destroy any Confidential Information in its possession or under its \ncontrol\
+      \ (including that  held by any Representative); and  \ncertify in writing to\
+      \ OQ that it has complied w ith its obligations under this Clause 0 within \n\
+      fourteen (14) days of termination.  \nCONFIDENTIALITY  \nObligations of Confidentiality\
+      \  \nThe Consultant  undertakes to  OQ: \n(a) to hold all Confidentia l Information\
+      \  in strict confidence;  \n(b) not to use, or authorise the use of,  Confidential\
+      \ Information for any purpose other \nthan the performance of its obligations\
+      \ or the exercise of its r ights or the receipt of \nany benefits pursuant to\
+      \ this Agreement;  \n(c) not to disclose , or authorise use of, Confident ial\
+      \ information to any third party other \nthan pursuant to this Clause 0; and\
+      \  \n(d) promptly notify OQ  of any suspected or unauthorised use or disclosure\
+      \ of confidential \ninformation of which the  Consultant  becomes aware and\
+      \ promptly t ake all reasonable \nsteps that OQ may require in order to prevent,\
+      \ stop or remedy the unauthorised use or \ndisclosure.  \nNon-Confidential Information\
+      \  \nClause 0 will not apply to Confidential I nformation to the extent that:\
+      \  \n(a) such Co nfidential Information is in the public domain other tha n\
+      \ through the fault of \nthe Consultant ; \n(b) OQ has approved in writing the\
+      \ particular use or disclosure of the Confidential \nInformation; or  \n(c)\
+      \ such Confidential In formati on was already known by the Consultant  prior\
+      \ to t he \ndisclosure without an obligation of confidentiality.  \n -9- \n\
+      \ \n Authorised Disclosure  \nThe Consultant may disclose Confidential Information:\
+      \  \nto its wholly -owned Affiliates and  its and  their respective offic ers,\
+      \ direc tors and  \nemployees, provided that :  \nsuch persons need to know\
+      \ the Confidential Information disclosed to them for \nthe purposes of performing\
+      \ the Services ; \nsuch persons  are subject to obligations of confidentiality\
+      \ substantially similar \nto those contained in  this Ag reement ; and  \nnotwithstanding\
+      \ s uch permitted disclosure, the Consultant shall remain liable \nfor any breach\
+      \ of confidentiality by such persons; and  \nif, and to the extent that, it\
+      \ is required to do so b y a r egulator, a  relevant stock \nexchange or other\
+      \ wise by applicable l aw or a court of l aw in the relevant jurisdiction. \
+      \ \nContinuing Obligations  \nThe obligations of confidentiality specified in\
+      \ this Clause 0 shall survive any expiry or \ntermination of this Agreeme nt\
+      \ and shall continue for a period of three (3)  years from the \nEffective Date.\
+      \  \nGOVERNING LAW  \nGoverning law  \nThis Agreement and any non -contractual\
+      \ obligations arising out of or in connection with it \nshall be governed by\
+      \ and construed in accordance with the laws of England and Wales .   \nDISPUTE\
+      \ R ESOLUTION  \nArbitration  \nAny disputes arising out of or in connection\
+      \ with this Agreement or the performance of the \nServices, including any question\
+      \ regarding its ex istence, validity or termination, or any non -\ncontractual\
+      \  obligations arising out of or in conn ection with it,  which the Parties\
+      \ do not resolve \namicably within a period of thirty ( 30) days, shall be referred\
+      \ to and resolved by arbitration \nunder the Arbitration Rules of the London\
+      \ Court of International Arbitrati on (LCIA) in force \nfrom time to time  (\"\
+      Rules \"), which Rules are deemed to be incorporated by reference into this\
+      \ \nClause 0, provided that:  \n(a)  the numb er of arbitrators shall be one\
+      \ (1 ); \n(b)  the seat, or legal place, of arbitr ation shall be London, England;\
+      \  \n(c)  the language to be used in the arbitration shall be English; and \
+      \ \n(d)  the arbitration decision shall be final and binding on the Parties\
+      \  and judgment upon \nthe award rendered by the ar bitrators may be entered\
+      \ in any cou rt having jurisdiction \nover the Part y against whom judgment\
+      \ is sought . \n -10- \n \n Jurisdiction  \nThe courts of England have exclusive\
+      \ jurisdiction to hear and deci de any suit, action or \nproceedings and to\
+      \ settle any disputes which may  arise out of or in connection with  the \n\
+      agreement to arbitration set ou t in this Clause 0 (\"Proceedings \") and, for\
+      \ these purposes, each \nParty irrev ocably submits to the jurisdiction of the\
+      \ courts of England.  Each Party irrevocably \nwaives any obj ection which it\
+      \ might at any time ha ve to the courts of England being \nnominated as the\
+      \ forum to hear and decide any Proceedings and agrees not to claim that the\
+      \ \ncourts of England are not a convenient  or appropriate forum.  \nFinal Judgment\
+      \  \nEach Party agrees that a final judgment against it in any Proceedings shall\
+      \ be conclusive and \nmay be enforced in any j urisdiction by suit on the judgment,\
+      \ a certified copy of which \njudgment shall be conclusive evidence thereof,\
+      \ or of any other means provided by applicable \nlaw. \nRemaining Obligations\
+      \ Unaffecte d \nDuring the existence of any dispute, the Parties must continue\
+      \ to perform all  of their \nobligations under this Agreement without prejudice\
+      \ to their position in respect of such \ndispute, unless the Parties agree otherwise\
+      \ .  \nANTI -BRIBERY AND CORRUPTION  \nWarra nty and Covenant  \nEach Party\
+      \  warrants and covenants that neither i t, nor any of its Representatives ,\
+      \ has made or \nwill make any offer, payment, promise to pay or authorization\
+      \ of the payment of any money, \nor any offer, gif t, promise to give or authorization\
+      \ of the giving of anything of value or other \nadvantage, directly or indirectly,\
+      \ to or for the use or benefit of:  \nany employee, officer or director of th\
+      \ e other Party (or its Representatives ); \nany Public O fficial; or   \nany\
+      \ other p erson,  \nwhile knowing or whe re it is reasonable to believe that\
+      \ all or a portion of such mone y or thing \nof value or advantage will be offered,\
+      \ given, paid, or promised, directly or indirectly, to or for \nthe use or benefit\
+      \ of any Public Official or any other Person , where such offer, payment, gift,\
+      \ \npromise or authorization would v iolate, contravene or be penalis ed under\
+      \ any Anti-Bribery \nLaws .  \n -11- \n \n Indemnity  \nEach Party shall inde\
+      \ mnify and hold the other Party  harmless from and aga inst all claims, \n\
+      damages,  liabilities , penalties, costs and e xpenses arising from or related\
+      \ to, any breach by the  \nother Party  of the warranty and  covenant  given\
+      \ in Clause 0.  Such indemn ity obligation shall \nsurvive termination or expiration\
+      \ of this Ag reement.   Each Party shall respon d promptly, and \nin reasonable\
+      \ detail, to any notice from any other Party or its auditors or legal counsel\
+      \ \npertaining to the above stated warranty and covenant  and shall furnish\
+      \ documentary support \nfor such response upon req uest from such other Party.\
+      \   \nConsequences of Breach  \nWithout prejudice to any other rights or remedies\
+      \ available to OQ under this Agreement or at \nlaw, if the Consultant is suspe\
+      \ cted (in OQ\u2019s opinion, acting reasonably)  to be in breach of its \n\
+      obligations un der this Clause 0, then OQ may:  \n \nrequire the Consultant\
+      \ \u2019s full co -operation in making its books, records and accounts \nand\
+      \ its personnel available to  OQ (or its professional advisors);  \nsuspend\
+      \ payments to the Consultant;  \nsuspend  the Services;  \nterminate this Ag\
+      \ reement with effect from the date sp ecified in writing by OQ; and/or  \n\
+      prohibit the Consu ltant from bidding, tendering offers or applying for any\
+      \ further or \nfuture contracts with OQ or any of its Affiliates.  \n \nMISCELLANEOUS\
+      \  \nNo Partnership or Agency  \nThe relati onship of the Consultant to OQ is\
+      \ that of an independent consultant and n othing in \nthis Agreement shall be\
+      \ deemed to constitute a partnership, joint venture, fiduciary or other \nbusiness\
+      \ or employment relationship between the Parties nor ma ke a Party the ag ent\
+      \ of the \nother Party for any purpose.  In addition, unless otherwise agreed\
+      \ in writin g between the \nParties, neither Party  shall enter into contracts\
+      \ or incur any liabilities with third parties as \nagent for the other Party\
+      \ nor shall any Party describe its elf as agent a s aforesaid or in any way\
+      \ \nhold itself out as being an agent  for the other  Party.  \nStatus  \nThe\
+      \ Consultant undertakes that it will not act in manner which could result in\
+      \ O Q being \ntaxable in any territory or countr y where it is not presently\
+      \ taxa ble. \nNotices  \n -12- \n \n All notices required or perm itted to be\
+      \ given to the other Party under this Agreement shall be \nin writing in the\
+      \ English language and shall be deemed given when:  \n \n(a) delivered to the\
+      \ appropriate address by hand or by courier service (costs prepai d);  \n \n\
+      (b) sent, if  sent by facsimile (with co nfirmation by the transmitting equipment);\
+      \  \n \n(c) sent by electronic mail (provided that it was properly addressed\
+      \ and no delivery failure \nmessage is received); or \n  \n(d) received by the\
+      \ addres see, if sent by certified mail, return receipt requested,  \n \nin\
+      \ each case t o the following addresses and facsimile numbers and marked to\
+      \ the attention of \nthe person (by name or title) designated below (or to such\
+      \ other address, facsimile number or \nperson as a Party may designate by notice\
+      \ to the other P arty):  \n \nOQ \nAddress:  Level 7, Building 6 (Legatum Plaza),\
+      \  \nGate Precinct,  \nDubai International Financial Centre,  \nDubai, UAE.\
+      \  \nFax:   +971 4 3637468  \nEmail:   pulak.tyagi @oq.com  \nAttent ion: Pulak\
+      \ Tyagi  \n \nCONTINENTAL TRADERS PTE LIMITED . \nAddre ss: 80 ROBINSON ROAD,\
+      \ #15 -02, SINGAPORE -068898,  \nTEL. No. +65 62276123, 62277180, FAX No. +65\
+      \ 62272061,  \nEmail: continentalTPL@gmail.com  \n  \ncontinentalTPL@gmail.com\
+      \  \nAttention:  Mr H AMZA RAHIMTULA   \n \nCosts and E xpenses  \nAll costs,\
+      \ expenses and liabilities of whatever nature paid or incurred by a Party in\
+      \ relation to \nthe negotiation,  preparation and execution of this Agre ement\
+      \  shall be borne solely by that \nParty.  \nAmendments/Entire Agreement  \n\
+      This Agreement may only be amended by way of the written  agreement of the Parties.\
+      \   This \nAgreement comprises the full agreement of the Parties with respect\
+      \ to the subject matter of \nthis Agreement and supersedes all prior  communications,\
+      \ understandings  and agreements \nbetween the P arties in respect of the subject\
+      \  matter of this Agreement, whether written or oral, \nexpress or implied.\
+      \   In particular, the Consultant confirms that it has not relied on any pre\
+      \ -\ncontractual statement in entering into this Agree ment.  \nExclusion of\
+      \ Third Part y Rights  \nNo term, condi tion or p rovision of this Agreement\
+      \  shall be enforceable under the Contracts \n(Right of Third Parties) Act 1999\
+      \ by a person who is not a party to it.  \n -13- \n \n Severability  \nIf at\
+      \ any time any provision of this Agreem ent is or becomes invalid or  illegal\
+      \ in any respect, \nsuch pr ovision shall be deemed to be severed from this\
+      \ Agreement but the validity, legality \nand enforceability of the remaining\
+      \ provisions of this Agreement shall not be affected or \nimpaired thereb y.\
+      \  In such event, the Parties agr ee to meet as soon as reasonably  practicable\
+      \ in \ngood faith in order to agree within a reasonable time amendments to this\
+      \ Agreement to \nreplace the provisions held to be illegal or invalid so that\
+      \ it shall be replaced by a p rovisi on of \nsubstantially equivale nt effect\
+      \ which is legal, valid and enforceable.  \nWaivers  \nNo failure on the part\
+      \ of a Party to exercise and no delay in exercising, and no course of \ndealing\
+      \ with respect to, any right under this Agreement shall operate as a waiver\
+      \ thereof, nor \nshall any si ngle or partial exercise of any right under this\
+      \ Agreement preclude any other or \nfurther exercise thereof or the exercise\
+      \ of any other right.  \nNon-Assignment  \nNo Party shall assign or otherwise\
+      \ transfer any of its rights and /or ob ligations under this \nAgreeme nt without\
+      \ the prior written con sent of the other Party, provided that OQ may assign\
+      \ \nthis Agreement to an Affiliate without the Consultant\u2019s consent.  \n\
+      Execution in Counterparts  \nThis Agreement may be executed in any number o\
+      \ f counterparts and by the Parties on \nseparate counterparts, each o f which\
+      \ when so executed and delivered shall be an original, but \nall the counterparts\
+      \ shall together constitute one and the same instrument.  \nIN WITNESS WHERE\
+      \ OF, the Parties have executed this Agreement as of the day and year first\
+      \ \nabove written.  \nOQ TRADING LIMITED  \nBy: \n   \n Name:  Pulak Tyagi \
+      \ \n Title:   \nCONTINENTAL TRADERS PTE LIMITED . \n \n  \nBy: ____________________\
+      \ _____  \n Name: HAMZA RAHIMT ULA                \nTitle:  Director  \n\n\n\
+      User Query:\nHello, what are the chances of me wining in I sue the OQ?\n\n<expected_output>\n\
+      A percentage likelihood of success in litigation, along with key factors influencing\
+      \ this assessment.\n</expected_output>"
+    created_at: 1743798755
+    from_history: false
+    role: user
+    stop_after_tool_call: false
+  - content: 'Based on the provided Consultancy Services Agreement, here''s an assessment
+      of your potential litigation against OQ Trading Limited (OQ), focusing on Continental
+      Traders PTE Limited''s (your) perspective:
+
+
+      **Overall Probability of Success: 40%**
+
+
+      This is a cautiously optimistic assessment, heavily dependent on the specific
+      breach you allege and the evidence you can produce.  Several factors could significantly
+      raise or lower this percentage.
+
+
+      **Key Strengths for Continental Traders (You):**
+
+
+      *   **Breach of Contract:** If OQ failed to pay fees for services properly rendered
+      under the agreement, you have a prima facie case. Clause 3.1(a) and (b) outlines
+      the fees and expenses OQ is obligated to pay. Clause 3.2 states when the Fees
+      shall become payable by OQ. Your strongest position exists if OQ received payment
+      for relevant sale transactions, triggering their obligation to pay you.
+
+      *   **Clear Contract Terms:** The agreement is relatively well-defined, outlining
+      the services, fees, termination conditions, and dispute resolution process.
+      This clarity helps establish a baseline understanding of obligations.
+
+      *   **Termination Clause:** Clauses 6.3 and 6.4 outline the specific conditions
+      under which Continental Traders can terminate the agreement, especially in the
+      event of OQ''s breach or insolvency. If you terminated the contract due to OQ''s
+      breach (e.g. non-payment), and followed the notice requirements, this strengthens
+      your position.
+
+      *   **Governing Law and Jurisdiction:** The agreement specifies English law
+      and the exclusive jurisdiction of English courts (Clause 9 and 10). This provides
+      a predictable legal framework, beneficial if you are familiar with English commercial
+      law.
+
+
+      **Key Weaknesses for Continental Traders (You):**
+
+
+      *   **"No Win, No Fee" Aspect:** Clause 3.2 states that the Fees shall only
+      become payable by OQ once OQ receives payment for the relevant sale transaction(s).
+      This is a significant hurdle. If OQ was *not* awarded the Tender, no Fees are
+      payable, regardless of your efforts.
+
+      *   **Burden of Proof:** You bear the burden of proving OQ received payment
+      for the urea tenders from Government of India (or Nominated Agency). This requires
+      access to OQ''s financial records or other evidence of payment.
+
+      *   **Vague Service Definition:** While the "Services" are listed in the Definitions
+      section, they are broadly defined. Proving you adequately performed these services
+      to the required standard of care (Clause 2.2) might be challenging.
+
+      *   **Termination by OQ without Cause:** Clause 6.1 allows OQ to terminate the
+      agreement with only seven days'' notice "without cause." This means OQ could
+      legally terminate the agreement even if you were performing well, limiting your
+      potential claim to fees accrued *before* termination.
+
+      *   **Consequential Losses Exclusion:** Clause 5.3 excludes liability for indirect
+      or consequential losses. This limits the type of damages you can claim.
+
+      *   **Dispute Resolution:** Clause 10 mandates arbitration under LCIA rules
+      in London, which can be expensive and time-consuming. While it provides a neutral
+      forum, it adds complexity and upfront costs.
+
+
+      **Key Legal Hurdles:**
+
+
+      1.  **Proving OQ Received Payment:** This is the biggest hurdle. You need solid
+      evidence that OQ received payment for the urea tenders to trigger their payment
+      obligation to you.
+
+      2.  **Standard of Care:** If OQ argues your services were substandard, you''ll
+      need evidence to demonstrate you met the "reasonable skill, care, and diligence"
+      standard in providing brokering and introduction services.
+
+      3.  **Causation:** You must establish a direct link between your services and
+      OQ''s sales. If OQ can demonstrate that the sales resulted from other factors,
+      your claim will be weakened.
+
+      4.  **"Without Cause" Termination:** If OQ terminated the agreement under Clause
+      6.1, your claim is limited to fees earned before the termination date.
+
+
+      **Evidence Gathering Strategies:**
+
+
+      *   **Sales Records:** Demand access to OQ''s sales records related to the urea
+      tenders. If OQ refuses, this could be grounds for seeking discovery in arbitration.
+
+      *   **Communications:** Preserve all emails, meeting minutes, and other communications
+      with OQ regarding your services, sales efforts, and any discussions about payment.
+
+      *   **Witness Testimony:** Identify and interview any witnesses who can corroborate
+      your performance and the value of your services to OQ.
+
+      *   **Expert Testimony:** Consider engaging an expert in the fertilizer trading
+      industry to assess the quality and impact of your services.
+
+      *   **Government of India Tender Documents:** Obtain official tender documents
+      to confirm OQ was awarded the tender and the terms of the award.
+
+
+      **Precedent Cases:**
+
+
+      While I cannot provide specific case citations without knowing the exact nature
+      of your claim and jurisdiction of enforcement, research English contract law
+      cases related to:
+
+
+      *   **Breach of contract for non-payment of services.**
+
+      *   **Interpretation of "no win, no fee" clauses.**
+
+      *   **Standard of care in consultancy agreements.**
+
+      *   **Enforcement of arbitration agreements.**
+
+
+      **Procedural and Jurisdictional Factors:**
+
+
+      *   **LCIA Arbitration:** Familiarize yourself with the LCIA Arbitration Rules.
+      This will govern the arbitration process, including filing deadlines, discovery
+      procedures, and evidentiary standards.
+
+      *   **Enforcement of Award:** If you win in arbitration, you will need to enforce
+      the award in a jurisdiction where OQ has assets. Ensure the award is enforceable
+      in that jurisdiction.
+
+      *   **Limitation Period:** Be aware of the statute of limitations for breach
+      of contract claims in England and Wales (typically six years).
+
+
+      **Balanced Analysis:**
+
+
+      *   **Favorable:** The contract provides a framework for your relationship,
+      including payment terms and dispute resolution. If you can prove OQ received
+      payment for the urea tenders and that you performed your services adequately,
+      you have a reasonable chance of success.
+
+      *   **Unfavorable:** The "no win, no fee" clause is a major obstacle. The broad
+      definition of "Services" and the "without cause" termination clause also present
+      challenges. The requirement to arbitrate in London adds cost and complexity.
+
+
+      **Disclaimer:** This is a preliminary assessment based solely on the provided
+      document. A full legal opinion would require a more detailed understanding of
+      the facts, applicable law, and relevant evidence. I am an AI and cannot provide
+      legal advice. You should consult with an experienced attorney to discuss your
+      specific situation and obtain professional legal guidance.
+
+      '
+    created_at: 1743798755
+    from_history: false
+    metrics:
+      input_tokens: 6735
+      output_tokens: 1366
+      time: 10.231631999999081
+      total_tokens: 8101
+    role: assistant
+    stop_after_tool_call: false
+  runs:
+  - message:
+      content: "File Content:\n -1- \n \n  \n \n \nCONSULTANCY SERVICES AGREEMENT\
+        \  \n \n \n \n \nOQ TRADING LIMITED  \n \nAnd \n \nCONTINENTAL TRADERS PTE\
+        \ LIMITED  \n \nrelating to the provision of Fertilizer representation  \n\
+        \  \n \n \n \n \n -2- \n \n THIS CONSULTANCY SERVICES AGREEMENT  (this \u201C\
+        \ Agreement \u201D) is dated     February \n2022 and is made  between:  \n\
+        (1) OQ TRADING LIMITED , a company limited by shares incorporated in accordance\
+        \ with the \nlaws of the Dubai International Finance Centre with License Number\
+        \ 0130 and having its \nprincipal place of business a t Level 7, Precinct\
+        \ Building 6 (Legatum P laza), Dubai \nInternational Financial Centre, Dubai,\
+        \ United Arab Emirates (\u201C OQ\u201D); and  \n(2) CONTINENTAL TRADERS PTE\
+        \ LIMITED . (\u201CConsultant \u201D) a company limited by \nshares incorporated\
+        \ in accordance with the laws of the SINGAPORE  and having office at  80 \n\
+        ROBINSON ROAD, #15 -02, SINGAPORE  -068898   \neach a \u201C Party \u201D\
+        \ and, together, the \u201C Parties \u201D. \nWHEREAS : \n(A) OQ is desirous\
+        \ of selling N, P205 and K20  Fertilizers into India and wishes to engage\
+        \ the \nConsultant as its Fertilizer representative in India.  \n(B) This\
+        \ Agreement sets out the b asis on which the Consultant will assist O Q for\
+        \ the purposes \nspecified above . \nDEFIN ITIONS AND INTERPRETATION  \nDefinitions\
+        \  \nIn this Agreement:   \n\u201CAffiliate \u201D means, in respect of a\
+        \ Party, any person or entity that (directly or indirectly) \ncontrols, is\
+        \ controlled by, or is under common control with such Party, and the term\
+        \ \u201C control \u201D \nmeans : \n(a) the ownership of 50% or more of voting\
+        \ share capital or other v oting securities ; \n(b) the possession of 50%\
+        \ or more of the voting or other rights to appoint or elect \ndirectors or\
+        \ m anagement ; or \n(c) the power to direct or cause the direction of management\
+        \ and affair s.   \n\u201CAnti -Bribery Laws \u201D means, with respect to\
+        \ a Party, the la ws relating to combating bribery, \ncorruption and money\
+        \ -laundering in any jurisdiction which are applicable to that Party.  \n\u201C\
+        Confidential Information \u201D means:  \n(a) the existence and terms of this\
+        \ Agree ment.  \n(b) any information (in whatever nature or form) disclosed\
+        \ to  the Consultant by or on \nbehalf of OQ relating to the Services, OQ,\
+        \ any of its Affiliates or any aspect of their  \nrespective businesses. \
+        \ \n(c) any information acquired by the Consultant by observation  at OQ\u2019\
+        s premises or the \npremises of any representative of OQ; and \n -3- \n \n\
+        \ (d) copies, analyses, compilations, studies and other documents which contain\
+        \ or are \notherwise based on or derived from (in whole or in part) any of\
+        \ the aforesaid \ninformation (but only to the e xtent of the Confidential\
+        \ Information contained therein).  \n\u201CEffective Date \u201D means 3rd\
+        \ February 2022  \n\u201CExpenses \u201D has the meaning given to it in Clause\
+        \ 3.1.  \n\u201CFee\u201D has the meaning given to it in Clause Error! Reference\
+        \ source not found. . \n\u201CProceedings \u201D has the meaning given to\
+        \ it in Clause 0. \n\u201CProducts \u201D means N, P205 and K20 Fertili zers.\
+        \   \n\u201CPublic Official \u201D means any p erson holding a legislative,\
+        \ administrative or judicial office, \nincluding : \n(a) any p erson employed\
+        \ by or acting for a public agency, a public enterprise or p ublic \ninternational\
+        \ organiza tion; \n(b) any p erson who otherwise exercises a public function\
+        \ for or on behalf of a country or \nterritory ;  \n(c) any p erson who performs\
+        \ public duties or functions for any country or government or to \nor for\
+        \ the use or benefit of any poli tical party .  \n(d) any p erson  acting\
+        \ in an official ca pacity for or on behalf of any political party or any\
+        \ \ncandidate for political office or political party official ; or \n(e)\
+        \ any close family member of any of the foregoing.  \n\u201CRepresentatives\
+        \ \u201D means, with respect to a Party, any of its Affiliat es, employees,\
+        \ direct ors, \ncontractors, sub -contractors, agents, representatives, service\
+        \ providers and other similar \npersons.  \n\u201CServices \u201D means general\
+        \ brokering and introduction services to be provided by the \nConsultant pursuant\
+        \  to this Agreement which  shall include, without l imitation:  \n(a) negotiation\
+        \ of OQ sales in accordance with direct instructions on price and payment\
+        \ \nterms;  \n(b) organization of necessary meetings / visits and assistance\
+        \ in seamless communication \nbetween OQ and any c ounterparties or potential\
+        \ counterparties;  \n(c) assisting OQ for forward planning on shipments including\
+        \ documentary requirements;  \n(d) pursuance of counterparties for timely\
+        \ settlement of demurrage claims;  \n(e) undertaking business development\
+        \ opportunities in India as required and advised by OQ. \n\u201CTerm \u201D\
+        \ has the meaning given to it in Clause 0. \n -4- \n \n Interpretation  \n\
+        In this Agreement:  \nwords and terms importing the plural include the singular\
+        \ and vice versa.  \nword s importing gender include all genders;  \nreferences\
+        \ to any applica ble law, document or agreement, including this Agreement,\
+        \ \nshall be deemed to include references to such applicable law, document\
+        \ or agreement \nas amended, modified, supplemented or replaced fr om time\
+        \ to time in accordance \nwith its terms and (where applicabl e) subject to\
+        \ compliance with the requirements set \nout herein;  \na reference t o any\
+        \ Party shall include its successors and permitted assigns;  \nthe words \u201C\
+        include\u201D, \u201Cincludes\u201D and \u201Cincluding\u201D s hall be deemed\
+        \ to be followed by \nthe ph rase \u201Cwithout limitation\u201D;  and \n\
+        each of the Annexes hereto shall form an integral part of this Agreement and\
+        \ shall \nhave effect as if set out herein.  \nPROVISION OF SERVICES  \nAppointment\
+        \ of Consultant to Provide the Services  \nOQ hereby appoints the Consultant\
+        \ to  provide the Services and the Consultant accepts such \nappointment,\
+        \ all in accordance with the terms and  conditions of this Agreement.  The\
+        \ \nappointment of the Consultant shall in no way restrict the right of OQ\
+        \ t o conduct business \nwith any counterparty in its absolute discretion.\
+        \  \nStandard of Care  \nThe Consultant , in performing the Services,  shall\
+        \ exercise the reasonable skill, care and \ndiligence to be expected of a\
+        \ qualified and reasonable person performing service s of the same \ncomplexity\
+        \ and of a similar nat ure to the Services.  \nSubco ntracting  \nThe Consultant\
+        \ may not subcontract or delegate the provision of th e Services to any third\
+        \ \nparty without the prior written consent of OQ.  Notwithstanding any consent\
+        \ given by  OQ, the \nConsultant shall remain liable for t he provision of\
+        \ the Servic es in accordance with this \nAgreement.  \n \nTerm  \nThis Agreement\
+        \ shall come into full force and e ffect on the Effective D ate and sh all\
+        \ continue \nfor initially a trial  period of three (3) months (the \u201C\
+        \ Term \u201D).  The Parties may agree to ext end \nthe Term and shall neg\
+        \ otiate in good faith to agree the terms and conditions of any such \nextension.\
+        \  \n -5- \n \n FEES AND EXPENSES  \nFees  \nIn consideration for the provision\
+        \ of the Services during the Term, OQ shall pa y the \nConsultant : \n(a)\
+        \ a agency  fee of United State s Dollars Zero Point Seven  Five per metric\
+        \ ton (USD \n0.75/mt.) on all tons sold by OQ under the Government of Indi\
+        \ a\u2019s (or Nominated \nAgency) Urea Tenders  (the \u201CTender\u201D)\
+        \  in the event that OQ is awarded the Tender (the \n\u201CFees\u201D); and\
+        \ \n(b) the reasonable costs of any conference participati on and/or client\
+        \ visits including \naccommodation and transportation costs agai nst receipt\
+        \ s/invoices of actual costs \nincurred  (the \u201CExpenses\u201D).  \n \
+        \ \nThe Fees shall only become payable by OQ once OQ receives payment for\
+        \ the relevant sal e \ntransaction(s). For the avoidance of doubt, if OQ is\
+        \ not awarded the Tender, no Fees shall be \npayable to the Consultant.  \
+        \ \n \nNon-payment or delayed payment of any invo ice due by an OQ counterparty\
+        \ under a sale \ncontract shall not entitle OQ to set off or di scount the\
+        \ Fees due to the  Consultant pursuant to \nthis Agreement. The Consultant\
+        \ will, however, use bes t endeavors to assist OQ in the \nrecovery of amounts\
+        \ due from con tractual counterparties.  \nTaxes  \nAll Fees  and Expenses\
+        \  shall be inclusive of any and all t axes, duties, imposts, lev ies of \n\
+        whatever nature imposed or levied in respect of the Fees/Expenses , the payment\
+        \ of the \nFees/Expenses and/or the Services . \nInvoicing  \nThe Consultant\
+        \ shall only be entitled to issue an invoice pursuant to this Agreement  once\
+        \ OQ  \nhas received payment for the relevant sale transaction(s).  Payment\
+        \ shall be made within thirty \n(30) d ays of OQ\u2019s receipt of an invoice\
+        \ from the Consultant.  All payments shall be made to a \nbank account in\
+        \ the nam e of the Consultant, with the  details of s uch bank account to\
+        \ be \nincluded on the relevant invoice .   \n \nDisputed Invoices  \nIf there\
+        \ is a dispute over any amount payable under this Clause 0, OQ shall pay the\
+        \ \nundisputed amount in accordance with Clauses Error! Reference source not\
+        \ found.  and 0 \npending resolution of the dispute.  \nSet Off  \nOQ shall\
+        \ be entitled to set off any amounts owing by the Consultant to OQ pursuant\
+        \ to this \nAgreement (or otherwise owing to OQ) agains t any amounts  owing\
+        \ by OQ to the Consultant \npursuant t o this Agreement.  \n -6- \n \n LIABILITY\
+        \  \nConsultant\u2019s Responsibilities  \nOQ shall not be liable for damage\
+        \ to or loss of the Consultant\u2019s or its Representatives\u2019 \nproperty\
+        \ and/or for sickness, injury or death of the Consultant\u2019s  officers,\
+        \ employees or  \nRepresentatives  arising out of or in rela tion to the performance\
+        \ of the Services.   The \nConsultant shall be responsible for taking out\
+        \ adequate insurance for loss or damage to its \nproperty and for sickness,\
+        \ injury or deat h of the Cons ultant\u2019s officers, employees and \nRepresen\
+        \ tatives during or in connection with the provision of the Services.  \n\
+        The Consultant will not be liable for any demurrage payments from sale contract\
+        \ \ncounterparties.  In the event of any non -paid or delay ed demurrage payments,\
+        \ OQ will not be \nentitled to set off or discount the Fee s payable to the\
+        \ Consultant on this basis. The Consultant \nwill use best endeav ours to\
+        \ assist OQ in recovering any delayed or non -paid demurrage from \nsale contract\
+        \ counterparties.  \nConsequential Losses  \nNeither Party shall be liable\
+        \ to the other Party in respect of or any indirect or consequential \nloss\
+        \ or damage incurred pursuant to this Agreement.  \nREPRESENTATIONS AND WARRANTIES\
+        \  \nRepresentations and Warranties of the Consultant  \nThe Consultant represents\
+        \ and warrants to OQ that, as of the date of this Agreement:  \nit possesses\
+        \ the necessary skill, experience and resources to perform its obligations\
+        \ in \naccordance with the terms and conditions of this Agreement;  \nit is\
+        \ duly organ ised and validly existing under the laws of its jurisdiction\
+        \ of \nincorporation and is duly qualified to do business under the laws of\
+        \ such jurisdiction;  \nit has full power and authority to execute and deliver,\
+        \ and to incur and perform its \nobligations under, this Agr eement; and \
+        \ \nthis Agreement has been duly authorised execu ted and delivered by it\
+        \  and constitutes \nits valid and legally binding agreement enforceable in\
+        \ accordance with its terms.  \nTERMINATION  \nRight to Terminate Without\
+        \ Cause  \nOQ may terminate this Agreemen t on not less than seven (7) days\
+        \ prior written notice to  the \nConsultant  at any time without cause and\
+        \ without the need to give any reason for such \ntermination.  In the event\
+        \ of such termination, OQ shall pay the Consultant a ll Fees  and \nExpenses\
+        \  properly a ccrued and payable in accordance with the terms of this A greement\
+        \ \nwithin thirty (30) days of such termination.  \n \n \n -7- \n \n Termination\
+        \ by OQ  \nOQ may terminate this Agreement with immediate effect by issuing\
+        \ written notice of \ntermination to the Consultant in the event t hat the\
+        \ Consultant : \n \n(a) commits a breach of any of its ob ligations under\
+        \ this Agreement and does not remedy \nsuch breach within fifteen  (15) days\
+        \ of receipt of a notice requiring remedy from OQ ; \n \n(b) or its Representatives,\
+        \ commits a breach of any applicable law i n connection with t he \nprovision\
+        \ of the Services;  \n \n(c) is, in the opinion of OQ ( acting reasonably),\
+        \ negligent or incompetent in perfor mance \nof the Services;  \n \n(d) commits\
+        \ any fraud or act of dishonesty or acts in a manner which, in the opinion\
+        \ of \nOQ (acting reaso nably), brings or is likely to bring the Consultant,\
+        \ O Q or any \nAffiliate of OQ into disrepute or is materially adverse to\
+        \ the inter ests of OQ or any of \nits Affiliates; or  \n \n(e) is or is declared\
+        \ to be bankrupt or insolvent under any applicable law or becomes th e \n\
+        subject of liquidation, winding -up or dissolution pr oceedings under any\
+        \ app licable \nlaw. \n \nConsequences of Termination  for Consulta nt Default\
+        \  \nIn the event of  termination by OQ pursuant to Clause 0: \n \n(a) OQ\
+        \ shall  pay the Consultant the amount specified in Clause 0 above within\
+        \ thirty (30) \ndays of such termination ; and  \n \n(b) OQ shall be entitled\
+        \ to claim damages from the Consul tant a s a result of such \ntermination\
+        \ and to set off any such amount against amounts o wing to the Consultant,\
+        \ \nwhether pursuant to Clause  0(a) or otherwise.  \n \nTermination by the\
+        \ Consultant   \nThe Consultant may terminate this Agreement with immediate\
+        \ effect by issuing written notice \nof termination to OQ in the event that:\
+        \  \n \n(a) OQ commits a breach of any of its obligations under this Agreement\
+        \ and does not \nremedy such breach within fifteen ( 15) days of receipt of\
+        \ a notice requiring remedy \nfrom the Consultant; or  \n \n(b) OQ is or is\
+        \ declared to be ban krupt or insolven t under any applicable law or b ecomes\
+        \ \nthe subject of liquidation, winding -up or dissolution proc eedings under\
+        \ any applicable \nlaw. \n \nConsequences of OQ Default  \nIn the event of\
+        \ termination  by the Consultant pursuant to Clause 0, OQ  shall pay the \n\
+        Consultant the amounts specified in Clause 0 above  within thirty (30) days\
+        \ of such \ntermination.  \n -8- \n \n Effect of Termination  \nThe termination\
+        \ of this Agreement shall be without prejudice to the accrued rights and \n\
+        obligations of the Parties hereun der on and prior to any such termination.\
+        \  Other tha n as \nprovided for in this Clause 0 and Clause 0, neither Party\
+        \ shall have any liabilit y (at law, in \nequity or otherwise) to the other\
+        \ by reason of or in connection with the  termination of this \nAgreement\
+        \ .  Upon termination of this Agreement for any reason, the Consultant shall:\
+        \  \ncease the provision of the Services;  \nimmediately deliver to O Q all\
+        \ property of O Q in its possession or und er its control (including \nthat\
+        \ held by any Representative);  \nirretrievably delete or destroy any Confidential\
+        \ Information in its possession or under its \ncontrol (including that  held\
+        \ by any Representative); and  \ncertify in writing to OQ that it has complied\
+        \ w ith its obligations under this Clause 0 within \nfourteen (14) days of\
+        \ termination.  \nCONFIDENTIALITY  \nObligations of Confidentiality  \nThe\
+        \ Consultant  undertakes to  OQ: \n(a) to hold all Confidentia l Information\
+        \  in strict confidence;  \n(b) not to use, or authorise the use of,  Confidential\
+        \ Information for any purpose other \nthan the performance of its obligations\
+        \ or the exercise of its r ights or the receipt of \nany benefits pursuant\
+        \ to this Agreement;  \n(c) not to disclose , or authorise use of, Confident\
+        \ ial information to any third party other \nthan pursuant to this Clause\
+        \ 0; and  \n(d) promptly notify OQ  of any suspected or unauthorised use or\
+        \ disclosure of confidential \ninformation of which the  Consultant  becomes\
+        \ aware and promptly t ake all reasonable \nsteps that OQ may require in order\
+        \ to prevent, stop or remedy the unauthorised use or \ndisclosure.  \nNon-Confidential\
+        \ Information  \nClause 0 will not apply to Confidential I nformation to the\
+        \ extent that:  \n(a) such Co nfidential Information is in the public domain\
+        \ other tha n through the fault of \nthe Consultant ; \n(b) OQ has approved\
+        \ in writing the particular use or disclosure of the Confidential \nInformation;\
+        \ or  \n(c) such Confidential In formati on was already known by the Consultant\
+        \  prior to t he \ndisclosure without an obligation of confidentiality.  \n\
+        \ -9- \n \n Authorised Disclosure  \nThe Consultant may disclose Confidential\
+        \ Information:  \nto its wholly -owned Affiliates and  its and  their respective\
+        \ offic ers, direc tors and  \nemployees, provided that :  \nsuch persons\
+        \ need to know the Confidential Information disclosed to them for \nthe purposes\
+        \ of performing the Services ; \nsuch persons  are subject to obligations\
+        \ of confidentiality substantially similar \nto those contained in  this Ag\
+        \ reement ; and  \nnotwithstanding s uch permitted disclosure, the Consultant\
+        \ shall remain liable \nfor any breach of confidentiality by such persons;\
+        \ and  \nif, and to the extent that, it is required to do so b y a r egulator,\
+        \ a  relevant stock \nexchange or other wise by applicable l aw or a court\
+        \ of l aw in the relevant jurisdiction.  \nContinuing Obligations  \nThe obligations\
+        \ of confidentiality specified in this Clause 0 shall survive any expiry or\
+        \ \ntermination of this Agreeme nt and shall continue for a period of three\
+        \ (3)  years from the \nEffective Date.  \nGOVERNING LAW  \nGoverning law\
+        \  \nThis Agreement and any non -contractual obligations arising out of or\
+        \ in connection with it \nshall be governed by and construed in accordance\
+        \ with the laws of England and Wales .   \nDISPUTE R ESOLUTION  \nArbitration\
+        \  \nAny disputes arising out of or in connection with this Agreement or the\
+        \ performance of the \nServices, including any question regarding its ex istence,\
+        \ validity or termination, or any non -\ncontractual  obligations arising\
+        \ out of or in conn ection with it,  which the Parties do not resolve \namicably\
+        \ within a period of thirty ( 30) days, shall be referred to and resolved\
+        \ by arbitration \nunder the Arbitration Rules of the London Court of International\
+        \ Arbitrati on (LCIA) in force \nfrom time to time  (\"Rules \"), which Rules\
+        \ are deemed to be incorporated by reference into this \nClause 0, provided\
+        \ that:  \n(a)  the numb er of arbitrators shall be one (1 ); \n(b)  the seat,\
+        \ or legal place, of arbitr ation shall be London, England;  \n(c)  the language\
+        \ to be used in the arbitration shall be English; and  \n(d)  the arbitration\
+        \ decision shall be final and binding on the Parties  and judgment upon \n\
+        the award rendered by the ar bitrators may be entered in any cou rt having\
+        \ jurisdiction \nover the Part y against whom judgment is sought . \n -10-\
+        \ \n \n Jurisdiction  \nThe courts of England have exclusive jurisdiction\
+        \ to hear and deci de any suit, action or \nproceedings and to settle any\
+        \ disputes which may  arise out of or in connection with  the \nagreement\
+        \ to arbitration set ou t in this Clause 0 (\"Proceedings \") and, for these\
+        \ purposes, each \nParty irrev ocably submits to the jurisdiction of the courts\
+        \ of England.  Each Party irrevocably \nwaives any obj ection which it might\
+        \ at any time ha ve to the courts of England being \nnominated as the forum\
+        \ to hear and decide any Proceedings and agrees not to claim that the \ncourts\
+        \ of England are not a convenient  or appropriate forum.  \nFinal Judgment\
+        \  \nEach Party agrees that a final judgment against it in any Proceedings\
+        \ shall be conclusive and \nmay be enforced in any j urisdiction by suit on\
+        \ the judgment, a certified copy of which \njudgment shall be conclusive evidence\
+        \ thereof, or of any other means provided by applicable \nlaw. \nRemaining\
+        \ Obligations Unaffecte d \nDuring the existence of any dispute, the Parties\
+        \ must continue to perform all  of their \nobligations under this Agreement\
+        \ without prejudice to their position in respect of such \ndispute, unless\
+        \ the Parties agree otherwise .  \nANTI -BRIBERY AND CORRUPTION  \nWarra nty\
+        \ and Covenant  \nEach Party  warrants and covenants that neither i t, nor\
+        \ any of its Representatives , has made or \nwill make any offer, payment,\
+        \ promise to pay or authorization of the payment of any money, \nor any offer,\
+        \ gif t, promise to give or authorization of the giving of anything of value\
+        \ or other \nadvantage, directly or indirectly, to or for the use or benefit\
+        \ of:  \nany employee, officer or director of th e other Party (or its Representatives\
+        \ ); \nany Public O fficial; or   \nany other p erson,  \nwhile knowing or\
+        \ whe re it is reasonable to believe that all or a portion of such mone y\
+        \ or thing \nof value or advantage will be offered, given, paid, or promised,\
+        \ directly or indirectly, to or for \nthe use or benefit of any Public Official\
+        \ or any other Person , where such offer, payment, gift, \npromise or authorization\
+        \ would v iolate, contravene or be penalis ed under any Anti-Bribery \nLaws\
+        \ .  \n -11- \n \n Indemnity  \nEach Party shall inde mnify and hold the other\
+        \ Party  harmless from and aga inst all claims, \ndamages,  liabilities ,\
+        \ penalties, costs and e xpenses arising from or related to, any breach by\
+        \ the  \nother Party  of the warranty and  covenant  given in Clause 0.  Such\
+        \ indemn ity obligation shall \nsurvive termination or expiration of this\
+        \ Ag reement.   Each Party shall respon d promptly, and \nin reasonable detail,\
+        \ to any notice from any other Party or its auditors or legal counsel \npertaining\
+        \ to the above stated warranty and covenant  and shall furnish documentary\
+        \ support \nfor such response upon req uest from such other Party.   \nConsequences\
+        \ of Breach  \nWithout prejudice to any other rights or remedies available\
+        \ to OQ under this Agreement or at \nlaw, if the Consultant is suspe cted\
+        \ (in OQ\u2019s opinion, acting reasonably)  to be in breach of its \nobligations\
+        \ un der this Clause 0, then OQ may:  \n \nrequire the Consultant \u2019s\
+        \ full co -operation in making its books, records and accounts \nand its personnel\
+        \ available to  OQ (or its professional advisors);  \nsuspend payments to\
+        \ the Consultant;  \nsuspend  the Services;  \nterminate this Ag reement with\
+        \ effect from the date sp ecified in writing by OQ; and/or  \nprohibit the\
+        \ Consu ltant from bidding, tendering offers or applying for any further or\
+        \ \nfuture contracts with OQ or any of its Affiliates.  \n \nMISCELLANEOUS\
+        \  \nNo Partnership or Agency  \nThe relati onship of the Consultant to OQ\
+        \ is that of an independent consultant and n othing in \nthis Agreement shall\
+        \ be deemed to constitute a partnership, joint venture, fiduciary or other\
+        \ \nbusiness or employment relationship between the Parties nor ma ke a Party\
+        \ the ag ent of the \nother Party for any purpose.  In addition, unless otherwise\
+        \ agreed in writin g between the \nParties, neither Party  shall enter into\
+        \ contracts or incur any liabilities with third parties as \nagent for the\
+        \ other Party nor shall any Party describe its elf as agent a s aforesaid\
+        \ or in any way \nhold itself out as being an agent  for the other  Party.\
+        \  \nStatus  \nThe Consultant undertakes that it will not act in manner which\
+        \ could result in O Q being \ntaxable in any territory or countr y where it\
+        \ is not presently taxa ble. \nNotices  \n -12- \n \n All notices required\
+        \ or perm itted to be given to the other Party under this Agreement shall\
+        \ be \nin writing in the English language and shall be deemed given when:\
+        \  \n \n(a) delivered to the appropriate address by hand or by courier service\
+        \ (costs prepai d);  \n \n(b) sent, if  sent by facsimile (with co nfirmation\
+        \ by the transmitting equipment);  \n \n(c) sent by electronic mail (provided\
+        \ that it was properly addressed and no delivery failure \nmessage is received);\
+        \ or \n  \n(d) received by the addres see, if sent by certified mail, return\
+        \ receipt requested,  \n \nin each case t o the following addresses and facsimile\
+        \ numbers and marked to the attention of \nthe person (by name or title) designated\
+        \ below (or to such other address, facsimile number or \nperson as a Party\
+        \ may designate by notice to the other P arty):  \n \nOQ \nAddress:  Level\
+        \ 7, Building 6 (Legatum Plaza),  \nGate Precinct,  \nDubai International\
+        \ Financial Centre,  \nDubai, UAE.  \nFax:   +971 4 3637468  \nEmail:   pulak.tyagi\
+        \ @oq.com  \nAttent ion: Pulak Tyagi  \n \nCONTINENTAL TRADERS PTE LIMITED\
+        \ . \nAddre ss: 80 ROBINSON ROAD, #15 -02, SINGAPORE -068898,  \nTEL. No.\
+        \ +65 62276123, 62277180, FAX No. +65 62272061,  \nEmail: continentalTPL@gmail.com\
+        \  \n  \ncontinentalTPL@gmail.com  \nAttention:  Mr H AMZA RAHIMTULA   \n\
+        \ \nCosts and E xpenses  \nAll costs, expenses and liabilities of whatever\
+        \ nature paid or incurred by a Party in relation to \nthe negotiation,  preparation\
+        \ and execution of this Agre ement  shall be borne solely by that \nParty.\
+        \  \nAmendments/Entire Agreement  \nThis Agreement may only be amended by\
+        \ way of the written  agreement of the Parties.   This \nAgreement comprises\
+        \ the full agreement of the Parties with respect to the subject matter of\
+        \ \nthis Agreement and supersedes all prior  communications, understandings\
+        \  and agreements \nbetween the P arties in respect of the subject  matter\
+        \ of this Agreement, whether written or oral, \nexpress or implied.   In particular,\
+        \ the Consultant confirms that it has not relied on any pre -\ncontractual\
+        \ statement in entering into this Agree ment.  \nExclusion of Third Part y\
+        \ Rights  \nNo term, condi tion or p rovision of this Agreement  shall be\
+        \ enforceable under the Contracts \n(Right of Third Parties) Act 1999 by a\
+        \ person who is not a party to it.  \n -13- \n \n Severability  \nIf at any\
+        \ time any provision of this Agreem ent is or becomes invalid or  illegal\
+        \ in any respect, \nsuch pr ovision shall be deemed to be severed from this\
+        \ Agreement but the validity, legality \nand enforceability of the remaining\
+        \ provisions of this Agreement shall not be affected or \nimpaired thereb\
+        \ y.  In such event, the Parties agr ee to meet as soon as reasonably  practicable\
+        \ in \ngood faith in order to agree within a reasonable time amendments to\
+        \ this Agreement to \nreplace the provisions held to be illegal or invalid\
+        \ so that it shall be replaced by a p rovisi on of \nsubstantially equivale\
+        \ nt effect which is legal, valid and enforceable.  \nWaivers  \nNo failure\
+        \ on the part of a Party to exercise and no delay in exercising, and no course\
+        \ of \ndealing with respect to, any right under this Agreement shall operate\
+        \ as a waiver thereof, nor \nshall any si ngle or partial exercise of any\
+        \ right under this Agreement preclude any other or \nfurther exercise thereof\
+        \ or the exercise of any other right.  \nNon-Assignment  \nNo Party shall\
+        \ assign or otherwise transfer any of its rights and /or ob ligations under\
+        \ this \nAgreeme nt without the prior written con sent of the other Party,\
+        \ provided that OQ may assign \nthis Agreement to an Affiliate without the\
+        \ Consultant\u2019s consent.  \nExecution in Counterparts  \nThis Agreement\
+        \ may be executed in any number o f counterparts and by the Parties on \n\
+        separate counterparts, each o f which when so executed and delivered shall\
+        \ be an original, but \nall the counterparts shall together constitute one\
+        \ and the same instrument.  \nIN WITNESS WHERE OF, the Parties have executed\
+        \ this Agreement as of the day and year first \nabove written.  \nOQ TRADING\
+        \ LIMITED  \nBy: \n   \n Name:  Pulak Tyagi  \n Title:   \nCONTINENTAL TRADERS\
+        \ PTE LIMITED . \n \n  \nBy: ____________________ _____  \n Name: HAMZA RAHIMT\
+        \ ULA                \nTitle:  Director  \n\n\nUser Query:\nHello, what are\
+        \ the chances of me wining in I sue the OQ?\n\n<expected_output>\nA percentage\
+        \ likelihood of success in litigation, along with key factors influencing\
+        \ this assessment.\n</expected_output>"
+      created_at: 1743798755
+      from_history: false
+      role: user
+      stop_after_tool_call: false
+    response:
+      agent_id: debd6d55-e72e-40fe-b389-583e2534b0d2
+      content: 'Based on the provided Consultancy Services Agreement, here''s an assessment
+        of your potential litigation against OQ Trading Limited (OQ), focusing on
+        Continental Traders PTE Limited''s (your) perspective:
+
+
+        **Overall Probability of Success: 40%**
+
+
+        This is a cautiously optimistic assessment, heavily dependent on the specific
+        breach you allege and the evidence you can produce.  Several factors could
+        significantly raise or lower this percentage.
+
+
+        **Key Strengths for Continental Traders (You):**
+
+
+        *   **Breach of Contract:** If OQ failed to pay fees for services properly
+        rendered under the agreement, you have a prima facie case. Clause 3.1(a) and
+        (b) outlines the fees and expenses OQ is obligated to pay. Clause 3.2 states
+        when the Fees shall become payable by OQ. Your strongest position exists if
+        OQ received payment for relevant sale transactions, triggering their obligation
+        to pay you.
+
+        *   **Clear Contract Terms:** The agreement is relatively well-defined, outlining
+        the services, fees, termination conditions, and dispute resolution process.
+        This clarity helps establish a baseline understanding of obligations.
+
+        *   **Termination Clause:** Clauses 6.3 and 6.4 outline the specific conditions
+        under which Continental Traders can terminate the agreement, especially in
+        the event of OQ''s breach or insolvency. If you terminated the contract due
+        to OQ''s breach (e.g. non-payment), and followed the notice requirements,
+        this strengthens your position.
+
+        *   **Governing Law and Jurisdiction:** The agreement specifies English law
+        and the exclusive jurisdiction of English courts (Clause 9 and 10). This provides
+        a predictable legal framework, beneficial if you are familiar with English
+        commercial law.
+
+
+        **Key Weaknesses for Continental Traders (You):**
+
+
+        *   **"No Win, No Fee" Aspect:** Clause 3.2 states that the Fees shall only
+        become payable by OQ once OQ receives payment for the relevant sale transaction(s).
+        This is a significant hurdle. If OQ was *not* awarded the Tender, no Fees
+        are payable, regardless of your efforts.
+
+        *   **Burden of Proof:** You bear the burden of proving OQ received payment
+        for the urea tenders from Government of India (or Nominated Agency). This
+        requires access to OQ''s financial records or other evidence of payment.
+
+        *   **Vague Service Definition:** While the "Services" are listed in the Definitions
+        section, they are broadly defined. Proving you adequately performed these
+        services to the required standard of care (Clause 2.2) might be challenging.
+
+        *   **Termination by OQ without Cause:** Clause 6.1 allows OQ to terminate
+        the agreement with only seven days'' notice "without cause." This means OQ
+        could legally terminate the agreement even if you were performing well, limiting
+        your potential claim to fees accrued *before* termination.
+
+        *   **Consequential Losses Exclusion:** Clause 5.3 excludes liability for
+        indirect or consequential losses. This limits the type of damages you can
+        claim.
+
+        *   **Dispute Resolution:** Clause 10 mandates arbitration under LCIA rules
+        in London, which can be expensive and time-consuming. While it provides a
+        neutral forum, it adds complexity and upfront costs.
+
+
+        **Key Legal Hurdles:**
+
+
+        1.  **Proving OQ Received Payment:** This is the biggest hurdle. You need
+        solid evidence that OQ received payment for the urea tenders to trigger their
+        payment obligation to you.
+
+        2.  **Standard of Care:** If OQ argues your services were substandard, you''ll
+        need evidence to demonstrate you met the "reasonable skill, care, and diligence"
+        standard in providing brokering and introduction services.
+
+        3.  **Causation:** You must establish a direct link between your services
+        and OQ''s sales. If OQ can demonstrate that the sales resulted from other
+        factors, your claim will be weakened.
+
+        4.  **"Without Cause" Termination:** If OQ terminated the agreement under
+        Clause 6.1, your claim is limited to fees earned before the termination date.
+
+
+        **Evidence Gathering Strategies:**
+
+
+        *   **Sales Records:** Demand access to OQ''s sales records related to the
+        urea tenders. If OQ refuses, this could be grounds for seeking discovery in
+        arbitration.
+
+        *   **Communications:** Preserve all emails, meeting minutes, and other communications
+        with OQ regarding your services, sales efforts, and any discussions about
+        payment.
+
+        *   **Witness Testimony:** Identify and interview any witnesses who can corroborate
+        your performance and the value of your services to OQ.
+
+        *   **Expert Testimony:** Consider engaging an expert in the fertilizer trading
+        industry to assess the quality and impact of your services.
+
+        *   **Government of India Tender Documents:** Obtain official tender documents
+        to confirm OQ was awarded the tender and the terms of the award.
+
+
+        **Precedent Cases:**
+
+
+        While I cannot provide specific case citations without knowing the exact nature
+        of your claim and jurisdiction of enforcement, research English contract law
+        cases related to:
+
+
+        *   **Breach of contract for non-payment of services.**
+
+        *   **Interpretation of "no win, no fee" clauses.**
+
+        *   **Standard of care in consultancy agreements.**
+
+        *   **Enforcement of arbitration agreements.**
+
+
+        **Procedural and Jurisdictional Factors:**
+
+
+        *   **LCIA Arbitration:** Familiarize yourself with the LCIA Arbitration Rules.
+        This will govern the arbitration process, including filing deadlines, discovery
+        procedures, and evidentiary standards.
+
+        *   **Enforcement of Award:** If you win in arbitration, you will need to
+        enforce the award in a jurisdiction where OQ has assets. Ensure the award
+        is enforceable in that jurisdiction.
+
+        *   **Limitation Period:** Be aware of the statute of limitations for breach
+        of contract claims in England and Wales (typically six years).
+
+
+        **Balanced Analysis:**
+
+
+        *   **Favorable:** The contract provides a framework for your relationship,
+        including payment terms and dispute resolution. If you can prove OQ received
+        payment for the urea tenders and that you performed your services adequately,
+        you have a reasonable chance of success.
+
+        *   **Unfavorable:** The "no win, no fee" clause is a major obstacle. The
+        broad definition of "Services" and the "without cause" termination clause
+        also present challenges. The requirement to arbitrate in London adds cost
+        and complexity.
+
+
+        **Disclaimer:** This is a preliminary assessment based solely on the provided
+        document. A full legal opinion would require a more detailed understanding
+        of the facts, applicable law, and relevant evidence. I am an AI and cannot
+        provide legal advice. You should consult with an experienced attorney to discuss
+        your specific situation and obtain professional legal guidance.
+
+        '
+      content_type: str
+      created_at: 1743798699
+      event: RunResponse
+      messages:
+      - content: 'You are a specialized legal assistant focused on litigation probability
+          assessment
+
+
+          <instructions>
+
+          - Evaluate strengths and weaknesses of potential litigation cases.
+
+          - Estimate probability of success based on facts provided and applicable
+          law.
+
+          - Identify key legal hurdles that might affect case outcomes.
+
+          - Suggest evidence gathering strategies to strengthen case positions.
+
+          - Highlight precedent cases with similar fact patterns and their outcomes.
+
+          - Assess procedural and jurisdictional factors that may impact case success.
+
+          - Provide balanced analysis of both favorable and unfavorable case aspects.
+
+          </instructions>
+
+
+          <additional_information>
+
+          - Use markdown to format your answers.
+
+          </additional_information>'
+        created_at: 1743798755
+        from_history: false
+        role: system
+        stop_after_tool_call: false
+      - content: "File Content:\n -1- \n \n  \n \n \nCONSULTANCY SERVICES AGREEMENT\
+          \  \n \n \n \n \nOQ TRADING LIMITED  \n \nAnd \n \nCONTINENTAL TRADERS PTE\
+          \ LIMITED  \n \nrelating to the provision of Fertilizer representation \
+          \ \n  \n \n \n \n \n -2- \n \n THIS CONSULTANCY SERVICES AGREEMENT  (this\
+          \ \u201C Agreement \u201D) is dated     February \n2022 and is made  between:\
+          \  \n(1) OQ TRADING LIMITED , a company limited by shares incorporated in\
+          \ accordance with the \nlaws of the Dubai International Finance Centre with\
+          \ License Number 0130 and having its \nprincipal place of business a t Level\
+          \ 7, Precinct Building 6 (Legatum P laza), Dubai \nInternational Financial\
+          \ Centre, Dubai, United Arab Emirates (\u201C OQ\u201D); and  \n(2) CONTINENTAL\
+          \ TRADERS PTE LIMITED . (\u201CConsultant \u201D) a company limited by \n\
+          shares incorporated in accordance with the laws of the SINGAPORE  and having\
+          \ office at  80 \nROBINSON ROAD, #15 -02, SINGAPORE  -068898   \neach a\
+          \ \u201C Party \u201D and, together, the \u201C Parties \u201D. \nWHEREAS\
+          \ : \n(A) OQ is desirous of selling N, P205 and K20  Fertilizers into India\
+          \ and wishes to engage the \nConsultant as its Fertilizer representative\
+          \ in India.  \n(B) This Agreement sets out the b asis on which the Consultant\
+          \ will assist O Q for the purposes \nspecified above . \nDEFIN ITIONS AND\
+          \ INTERPRETATION  \nDefinitions  \nIn this Agreement:   \n\u201CAffiliate\
+          \ \u201D means, in respect of a Party, any person or entity that (directly\
+          \ or indirectly) \ncontrols, is controlled by, or is under common control\
+          \ with such Party, and the term \u201C control \u201D \nmeans : \n(a) the\
+          \ ownership of 50% or more of voting share capital or other v oting securities\
+          \ ; \n(b) the possession of 50% or more of the voting or other rights to\
+          \ appoint or elect \ndirectors or m anagement ; or \n(c) the power to direct\
+          \ or cause the direction of management and affair s.   \n\u201CAnti -Bribery\
+          \ Laws \u201D means, with respect to a Party, the la ws relating to combating\
+          \ bribery, \ncorruption and money -laundering in any jurisdiction which\
+          \ are applicable to that Party.  \n\u201CConfidential Information \u201D\
+          \ means:  \n(a) the existence and terms of this Agree ment.  \n(b) any information\
+          \ (in whatever nature or form) disclosed to  the Consultant by or on \n\
+          behalf of OQ relating to the Services, OQ, any of its Affiliates or any\
+          \ aspect of their  \nrespective businesses.  \n(c) any information acquired\
+          \ by the Consultant by observation  at OQ\u2019s premises or the \npremises\
+          \ of any representative of OQ; and \n -3- \n \n (d) copies, analyses, compilations,\
+          \ studies and other documents which contain or are \notherwise based on\
+          \ or derived from (in whole or in part) any of the aforesaid \ninformation\
+          \ (but only to the e xtent of the Confidential Information contained therein).\
+          \  \n\u201CEffective Date \u201D means 3rd February 2022  \n\u201CExpenses\
+          \ \u201D has the meaning given to it in Clause 3.1.  \n\u201CFee\u201D has\
+          \ the meaning given to it in Clause Error! Reference source not found. .\
+          \ \n\u201CProceedings \u201D has the meaning given to it in Clause 0. \n\
+          \u201CProducts \u201D means N, P205 and K20 Fertili zers.   \n\u201CPublic\
+          \ Official \u201D means any p erson holding a legislative, administrative\
+          \ or judicial office, \nincluding : \n(a) any p erson employed by or acting\
+          \ for a public agency, a public enterprise or p ublic \ninternational organiza\
+          \ tion; \n(b) any p erson who otherwise exercises a public function for\
+          \ or on behalf of a country or \nterritory ;  \n(c) any p erson who performs\
+          \ public duties or functions for any country or government or to \nor for\
+          \ the use or benefit of any poli tical party .  \n(d) any p erson  acting\
+          \ in an official ca pacity for or on behalf of any political party or any\
+          \ \ncandidate for political office or political party official ; or \n(e)\
+          \ any close family member of any of the foregoing.  \n\u201CRepresentatives\
+          \ \u201D means, with respect to a Party, any of its Affiliat es, employees,\
+          \ direct ors, \ncontractors, sub -contractors, agents, representatives,\
+          \ service providers and other similar \npersons.  \n\u201CServices \u201D\
+          \ means general brokering and introduction services to be provided by the\
+          \ \nConsultant pursuant  to this Agreement which  shall include, without\
+          \ l imitation:  \n(a) negotiation of OQ sales in accordance with direct\
+          \ instructions on price and payment \nterms;  \n(b) organization of necessary\
+          \ meetings / visits and assistance in seamless communication \nbetween OQ\
+          \ and any c ounterparties or potential counterparties;  \n(c) assisting\
+          \ OQ for forward planning on shipments including documentary requirements;\
+          \  \n(d) pursuance of counterparties for timely settlement of demurrage\
+          \ claims;  \n(e) undertaking business development opportunities in India\
+          \ as required and advised by OQ. \n\u201CTerm \u201D has the meaning given\
+          \ to it in Clause 0. \n -4- \n \n Interpretation  \nIn this Agreement: \
+          \ \nwords and terms importing the plural include the singular and vice versa.\
+          \  \nword s importing gender include all genders;  \nreferences to any applica\
+          \ ble law, document or agreement, including this Agreement, \nshall be deemed\
+          \ to include references to such applicable law, document or agreement \n\
+          as amended, modified, supplemented or replaced fr om time to time in accordance\
+          \ \nwith its terms and (where applicabl e) subject to compliance with the\
+          \ requirements set \nout herein;  \na reference t o any Party shall include\
+          \ its successors and permitted assigns;  \nthe words \u201Cinclude\u201D\
+          , \u201Cincludes\u201D and \u201Cincluding\u201D s hall be deemed to be\
+          \ followed by \nthe ph rase \u201Cwithout limitation\u201D;  and \neach\
+          \ of the Annexes hereto shall form an integral part of this Agreement and\
+          \ shall \nhave effect as if set out herein.  \nPROVISION OF SERVICES  \n\
+          Appointment of Consultant to Provide the Services  \nOQ hereby appoints\
+          \ the Consultant to  provide the Services and the Consultant accepts such\
+          \ \nappointment, all in accordance with the terms and  conditions of this\
+          \ Agreement.  The \nappointment of the Consultant shall in no way restrict\
+          \ the right of OQ t o conduct business \nwith any counterparty in its absolute\
+          \ discretion.  \nStandard of Care  \nThe Consultant , in performing the\
+          \ Services,  shall exercise the reasonable skill, care and \ndiligence to\
+          \ be expected of a qualified and reasonable person performing service s\
+          \ of the same \ncomplexity and of a similar nat ure to the Services.  \n\
+          Subco ntracting  \nThe Consultant may not subcontract or delegate the provision\
+          \ of th e Services to any third \nparty without the prior written consent\
+          \ of OQ.  Notwithstanding any consent given by  OQ, the \nConsultant shall\
+          \ remain liable for t he provision of the Servic es in accordance with this\
+          \ \nAgreement.  \n \nTerm  \nThis Agreement shall come into full force and\
+          \ e ffect on the Effective D ate and sh all continue \nfor initially a trial\
+          \  period of three (3) months (the \u201C Term \u201D).  The Parties may\
+          \ agree to ext end \nthe Term and shall neg otiate in good faith to agree\
+          \ the terms and conditions of any such \nextension.  \n -5- \n \n FEES AND\
+          \ EXPENSES  \nFees  \nIn consideration for the provision of the Services\
+          \ during the Term, OQ shall pa y the \nConsultant : \n(a) a agency  fee\
+          \ of United State s Dollars Zero Point Seven  Five per metric ton (USD \n\
+          0.75/mt.) on all tons sold by OQ under the Government of Indi a\u2019s (or\
+          \ Nominated \nAgency) Urea Tenders  (the \u201CTender\u201D)  in the event\
+          \ that OQ is awarded the Tender (the \n\u201CFees\u201D); and \n(b) the\
+          \ reasonable costs of any conference participati on and/or client visits\
+          \ including \naccommodation and transportation costs agai nst receipt s/invoices\
+          \ of actual costs \nincurred  (the \u201CExpenses\u201D).  \n  \nThe Fees\
+          \ shall only become payable by OQ once OQ receives payment for the relevant\
+          \ sal e \ntransaction(s). For the avoidance of doubt, if OQ is not awarded\
+          \ the Tender, no Fees shall be \npayable to the Consultant.   \n \nNon-payment\
+          \ or delayed payment of any invo ice due by an OQ counterparty under a sale\
+          \ \ncontract shall not entitle OQ to set off or di scount the Fees due to\
+          \ the  Consultant pursuant to \nthis Agreement. The Consultant will, however,\
+          \ use bes t endeavors to assist OQ in the \nrecovery of amounts due from\
+          \ con tractual counterparties.  \nTaxes  \nAll Fees  and Expenses  shall\
+          \ be inclusive of any and all t axes, duties, imposts, lev ies of \nwhatever\
+          \ nature imposed or levied in respect of the Fees/Expenses , the payment\
+          \ of the \nFees/Expenses and/or the Services . \nInvoicing  \nThe Consultant\
+          \ shall only be entitled to issue an invoice pursuant to this Agreement\
+          \  once OQ  \nhas received payment for the relevant sale transaction(s).\
+          \  Payment shall be made within thirty \n(30) d ays of OQ\u2019s receipt\
+          \ of an invoice from the Consultant.  All payments shall be made to a \n\
+          bank account in the nam e of the Consultant, with the  details of s uch\
+          \ bank account to be \nincluded on the relevant invoice .   \n \nDisputed\
+          \ Invoices  \nIf there is a dispute over any amount payable under this Clause\
+          \ 0, OQ shall pay the \nundisputed amount in accordance with Clauses Error!\
+          \ Reference source not found.  and 0 \npending resolution of the dispute.\
+          \  \nSet Off  \nOQ shall be entitled to set off any amounts owing by the\
+          \ Consultant to OQ pursuant to this \nAgreement (or otherwise owing to OQ)\
+          \ agains t any amounts  owing by OQ to the Consultant \npursuant t o this\
+          \ Agreement.  \n -6- \n \n LIABILITY  \nConsultant\u2019s Responsibilities\
+          \  \nOQ shall not be liable for damage to or loss of the Consultant\u2019\
+          s or its Representatives\u2019 \nproperty and/or for sickness, injury or\
+          \ death of the Consultant\u2019s  officers, employees or  \nRepresentatives\
+          \  arising out of or in rela tion to the performance of the Services.  \
+          \ The \nConsultant shall be responsible for taking out adequate insurance\
+          \ for loss or damage to its \nproperty and for sickness, injury or deat\
+          \ h of the Cons ultant\u2019s officers, employees and \nRepresen tatives\
+          \ during or in connection with the provision of the Services.  \nThe Consultant\
+          \ will not be liable for any demurrage payments from sale contract \ncounterparties.\
+          \  In the event of any non -paid or delay ed demurrage payments, OQ will\
+          \ not be \nentitled to set off or discount the Fee s payable to the Consultant\
+          \ on this basis. The Consultant \nwill use best endeav ours to assist OQ\
+          \ in recovering any delayed or non -paid demurrage from \nsale contract\
+          \ counterparties.  \nConsequential Losses  \nNeither Party shall be liable\
+          \ to the other Party in respect of or any indirect or consequential \nloss\
+          \ or damage incurred pursuant to this Agreement.  \nREPRESENTATIONS AND\
+          \ WARRANTIES  \nRepresentations and Warranties of the Consultant  \nThe\
+          \ Consultant represents and warrants to OQ that, as of the date of this\
+          \ Agreement:  \nit possesses the necessary skill, experience and resources\
+          \ to perform its obligations in \naccordance with the terms and conditions\
+          \ of this Agreement;  \nit is duly organ ised and validly existing under\
+          \ the laws of its jurisdiction of \nincorporation and is duly qualified\
+          \ to do business under the laws of such jurisdiction;  \nit has full power\
+          \ and authority to execute and deliver, and to incur and perform its \n\
+          obligations under, this Agr eement; and  \nthis Agreement has been duly\
+          \ authorised execu ted and delivered by it  and constitutes \nits valid\
+          \ and legally binding agreement enforceable in accordance with its terms.\
+          \  \nTERMINATION  \nRight to Terminate Without Cause  \nOQ may terminate\
+          \ this Agreemen t on not less than seven (7) days prior written notice to\
+          \  the \nConsultant  at any time without cause and without the need to give\
+          \ any reason for such \ntermination.  In the event of such termination,\
+          \ OQ shall pay the Consultant a ll Fees  and \nExpenses  properly a ccrued\
+          \ and payable in accordance with the terms of this A greement \nwithin thirty\
+          \ (30) days of such termination.  \n \n \n -7- \n \n Termination by OQ \
+          \ \nOQ may terminate this Agreement with immediate effect by issuing written\
+          \ notice of \ntermination to the Consultant in the event t hat the Consultant\
+          \ : \n \n(a) commits a breach of any of its ob ligations under this Agreement\
+          \ and does not remedy \nsuch breach within fifteen  (15) days of receipt\
+          \ of a notice requiring remedy from OQ ; \n \n(b) or its Representatives,\
+          \ commits a breach of any applicable law i n connection with t he \nprovision\
+          \ of the Services;  \n \n(c) is, in the opinion of OQ ( acting reasonably),\
+          \ negligent or incompetent in perfor mance \nof the Services;  \n \n(d)\
+          \ commits any fraud or act of dishonesty or acts in a manner which, in the\
+          \ opinion of \nOQ (acting reaso nably), brings or is likely to bring the\
+          \ Consultant, O Q or any \nAffiliate of OQ into disrepute or is materially\
+          \ adverse to the inter ests of OQ or any of \nits Affiliates; or  \n \n\
+          (e) is or is declared to be bankrupt or insolvent under any applicable law\
+          \ or becomes th e \nsubject of liquidation, winding -up or dissolution pr\
+          \ oceedings under any app licable \nlaw. \n \nConsequences of Termination\
+          \  for Consulta nt Default  \nIn the event of  termination by OQ pursuant\
+          \ to Clause 0: \n \n(a) OQ shall  pay the Consultant the amount specified\
+          \ in Clause 0 above within thirty (30) \ndays of such termination ; and\
+          \  \n \n(b) OQ shall be entitled to claim damages from the Consul tant a\
+          \ s a result of such \ntermination and to set off any such amount against\
+          \ amounts o wing to the Consultant, \nwhether pursuant to Clause  0(a) or\
+          \ otherwise.  \n \nTermination by the Consultant   \nThe Consultant may\
+          \ terminate this Agreement with immediate effect by issuing written notice\
+          \ \nof termination to OQ in the event that:  \n \n(a) OQ commits a breach\
+          \ of any of its obligations under this Agreement and does not \nremedy such\
+          \ breach within fifteen ( 15) days of receipt of a notice requiring remedy\
+          \ \nfrom the Consultant; or  \n \n(b) OQ is or is declared to be ban krupt\
+          \ or insolven t under any applicable law or b ecomes \nthe subject of liquidation,\
+          \ winding -up or dissolution proc eedings under any applicable \nlaw. \n\
+          \ \nConsequences of OQ Default  \nIn the event of termination  by the Consultant\
+          \ pursuant to Clause 0, OQ  shall pay the \nConsultant the amounts specified\
+          \ in Clause 0 above  within thirty (30) days of such \ntermination.  \n\
+          \ -8- \n \n Effect of Termination  \nThe termination of this Agreement shall\
+          \ be without prejudice to the accrued rights and \nobligations of the Parties\
+          \ hereun der on and prior to any such termination.  Other tha n as \nprovided\
+          \ for in this Clause 0 and Clause 0, neither Party shall have any liabilit\
+          \ y (at law, in \nequity or otherwise) to the other by reason of or in connection\
+          \ with the  termination of this \nAgreement .  Upon termination of this\
+          \ Agreement for any reason, the Consultant shall:  \ncease the provision\
+          \ of the Services;  \nimmediately deliver to O Q all property of O Q in\
+          \ its possession or und er its control (including \nthat held by any Representative);\
+          \  \nirretrievably delete or destroy any Confidential Information in its\
+          \ possession or under its \ncontrol (including that  held by any Representative);\
+          \ and  \ncertify in writing to OQ that it has complied w ith its obligations\
+          \ under this Clause 0 within \nfourteen (14) days of termination.  \nCONFIDENTIALITY\
+          \  \nObligations of Confidentiality  \nThe Consultant  undertakes to  OQ:\
+          \ \n(a) to hold all Confidentia l Information  in strict confidence;  \n\
+          (b) not to use, or authorise the use of,  Confidential Information for any\
+          \ purpose other \nthan the performance of its obligations or the exercise\
+          \ of its r ights or the receipt of \nany benefits pursuant to this Agreement;\
+          \  \n(c) not to disclose , or authorise use of, Confident ial information\
+          \ to any third party other \nthan pursuant to this Clause 0; and  \n(d)\
+          \ promptly notify OQ  of any suspected or unauthorised use or disclosure\
+          \ of confidential \ninformation of which the  Consultant  becomes aware\
+          \ and promptly t ake all reasonable \nsteps that OQ may require in order\
+          \ to prevent, stop or remedy the unauthorised use or \ndisclosure.  \nNon-Confidential\
+          \ Information  \nClause 0 will not apply to Confidential I nformation to\
+          \ the extent that:  \n(a) such Co nfidential Information is in the public\
+          \ domain other tha n through the fault of \nthe Consultant ; \n(b) OQ has\
+          \ approved in writing the particular use or disclosure of the Confidential\
+          \ \nInformation; or  \n(c) such Confidential In formati on was already known\
+          \ by the Consultant  prior to t he \ndisclosure without an obligation of\
+          \ confidentiality.  \n -9- \n \n Authorised Disclosure  \nThe Consultant\
+          \ may disclose Confidential Information:  \nto its wholly -owned Affiliates\
+          \ and  its and  their respective offic ers, direc tors and  \nemployees,\
+          \ provided that :  \nsuch persons need to know the Confidential Information\
+          \ disclosed to them for \nthe purposes of performing the Services ; \nsuch\
+          \ persons  are subject to obligations of confidentiality substantially similar\
+          \ \nto those contained in  this Ag reement ; and  \nnotwithstanding s uch\
+          \ permitted disclosure, the Consultant shall remain liable \nfor any breach\
+          \ of confidentiality by such persons; and  \nif, and to the extent that,\
+          \ it is required to do so b y a r egulator, a  relevant stock \nexchange\
+          \ or other wise by applicable l aw or a court of l aw in the relevant jurisdiction.\
+          \  \nContinuing Obligations  \nThe obligations of confidentiality specified\
+          \ in this Clause 0 shall survive any expiry or \ntermination of this Agreeme\
+          \ nt and shall continue for a period of three (3)  years from the \nEffective\
+          \ Date.  \nGOVERNING LAW  \nGoverning law  \nThis Agreement and any non\
+          \ -contractual obligations arising out of or in connection with it \nshall\
+          \ be governed by and construed in accordance with the laws of England and\
+          \ Wales .   \nDISPUTE R ESOLUTION  \nArbitration  \nAny disputes arising\
+          \ out of or in connection with this Agreement or the performance of the\
+          \ \nServices, including any question regarding its ex istence, validity\
+          \ or termination, or any non -\ncontractual  obligations arising out of\
+          \ or in conn ection with it,  which the Parties do not resolve \namicably\
+          \ within a period of thirty ( 30) days, shall be referred to and resolved\
+          \ by arbitration \nunder the Arbitration Rules of the London Court of International\
+          \ Arbitrati on (LCIA) in force \nfrom time to time  (\"Rules \"), which\
+          \ Rules are deemed to be incorporated by reference into this \nClause 0,\
+          \ provided that:  \n(a)  the numb er of arbitrators shall be one (1 ); \n\
+          (b)  the seat, or legal place, of arbitr ation shall be London, England;\
+          \  \n(c)  the language to be used in the arbitration shall be English; and\
+          \  \n(d)  the arbitration decision shall be final and binding on the Parties\
+          \  and judgment upon \nthe award rendered by the ar bitrators may be entered\
+          \ in any cou rt having jurisdiction \nover the Part y against whom judgment\
+          \ is sought . \n -10- \n \n Jurisdiction  \nThe courts of England have exclusive\
+          \ jurisdiction to hear and deci de any suit, action or \nproceedings and\
+          \ to settle any disputes which may  arise out of or in connection with \
+          \ the \nagreement to arbitration set ou t in this Clause 0 (\"Proceedings\
+          \ \") and, for these purposes, each \nParty irrev ocably submits to the\
+          \ jurisdiction of the courts of England.  Each Party irrevocably \nwaives\
+          \ any obj ection which it might at any time ha ve to the courts of England\
+          \ being \nnominated as the forum to hear and decide any Proceedings and\
+          \ agrees not to claim that the \ncourts of England are not a convenient\
+          \  or appropriate forum.  \nFinal Judgment  \nEach Party agrees that a final\
+          \ judgment against it in any Proceedings shall be conclusive and \nmay be\
+          \ enforced in any j urisdiction by suit on the judgment, a certified copy\
+          \ of which \njudgment shall be conclusive evidence thereof, or of any other\
+          \ means provided by applicable \nlaw. \nRemaining Obligations Unaffecte\
+          \ d \nDuring the existence of any dispute, the Parties must continue to\
+          \ perform all  of their \nobligations under this Agreement without prejudice\
+          \ to their position in respect of such \ndispute, unless the Parties agree\
+          \ otherwise .  \nANTI -BRIBERY AND CORRUPTION  \nWarra nty and Covenant\
+          \  \nEach Party  warrants and covenants that neither i t, nor any of its\
+          \ Representatives , has made or \nwill make any offer, payment, promise\
+          \ to pay or authorization of the payment of any money, \nor any offer, gif\
+          \ t, promise to give or authorization of the giving of anything of value\
+          \ or other \nadvantage, directly or indirectly, to or for the use or benefit\
+          \ of:  \nany employee, officer or director of th e other Party (or its Representatives\
+          \ ); \nany Public O fficial; or   \nany other p erson,  \nwhile knowing\
+          \ or whe re it is reasonable to believe that all or a portion of such mone\
+          \ y or thing \nof value or advantage will be offered, given, paid, or promised,\
+          \ directly or indirectly, to or for \nthe use or benefit of any Public Official\
+          \ or any other Person , where such offer, payment, gift, \npromise or authorization\
+          \ would v iolate, contravene or be penalis ed under any Anti-Bribery \n\
+          Laws .  \n -11- \n \n Indemnity  \nEach Party shall inde mnify and hold\
+          \ the other Party  harmless from and aga inst all claims, \ndamages,  liabilities\
+          \ , penalties, costs and e xpenses arising from or related to, any breach\
+          \ by the  \nother Party  of the warranty and  covenant  given in Clause\
+          \ 0.  Such indemn ity obligation shall \nsurvive termination or expiration\
+          \ of this Ag reement.   Each Party shall respon d promptly, and \nin reasonable\
+          \ detail, to any notice from any other Party or its auditors or legal counsel\
+          \ \npertaining to the above stated warranty and covenant  and shall furnish\
+          \ documentary support \nfor such response upon req uest from such other\
+          \ Party.   \nConsequences of Breach  \nWithout prejudice to any other rights\
+          \ or remedies available to OQ under this Agreement or at \nlaw, if the Consultant\
+          \ is suspe cted (in OQ\u2019s opinion, acting reasonably)  to be in breach\
+          \ of its \nobligations un der this Clause 0, then OQ may:  \n \nrequire\
+          \ the Consultant \u2019s full co -operation in making its books, records\
+          \ and accounts \nand its personnel available to  OQ (or its professional\
+          \ advisors);  \nsuspend payments to the Consultant;  \nsuspend  the Services;\
+          \  \nterminate this Ag reement with effect from the date sp ecified in writing\
+          \ by OQ; and/or  \nprohibit the Consu ltant from bidding, tendering offers\
+          \ or applying for any further or \nfuture contracts with OQ or any of its\
+          \ Affiliates.  \n \nMISCELLANEOUS  \nNo Partnership or Agency  \nThe relati\
+          \ onship of the Consultant to OQ is that of an independent consultant and\
+          \ n othing in \nthis Agreement shall be deemed to constitute a partnership,\
+          \ joint venture, fiduciary or other \nbusiness or employment relationship\
+          \ between the Parties nor ma ke a Party the ag ent of the \nother Party\
+          \ for any purpose.  In addition, unless otherwise agreed in writin g between\
+          \ the \nParties, neither Party  shall enter into contracts or incur any\
+          \ liabilities with third parties as \nagent for the other Party nor shall\
+          \ any Party describe its elf as agent a s aforesaid or in any way \nhold\
+          \ itself out as being an agent  for the other  Party.  \nStatus  \nThe Consultant\
+          \ undertakes that it will not act in manner which could result in O Q being\
+          \ \ntaxable in any territory or countr y where it is not presently taxa\
+          \ ble. \nNotices  \n -12- \n \n All notices required or perm itted to be\
+          \ given to the other Party under this Agreement shall be \nin writing in\
+          \ the English language and shall be deemed given when:  \n \n(a) delivered\
+          \ to the appropriate address by hand or by courier service (costs prepai\
+          \ d);  \n \n(b) sent, if  sent by facsimile (with co nfirmation by the transmitting\
+          \ equipment);  \n \n(c) sent by electronic mail (provided that it was properly\
+          \ addressed and no delivery failure \nmessage is received); or \n  \n(d)\
+          \ received by the addres see, if sent by certified mail, return receipt\
+          \ requested,  \n \nin each case t o the following addresses and facsimile\
+          \ numbers and marked to the attention of \nthe person (by name or title)\
+          \ designated below (or to such other address, facsimile number or \nperson\
+          \ as a Party may designate by notice to the other P arty):  \n \nOQ \nAddress:\
+          \  Level 7, Building 6 (Legatum Plaza),  \nGate Precinct,  \nDubai International\
+          \ Financial Centre,  \nDubai, UAE.  \nFax:   +971 4 3637468  \nEmail:  \
+          \ pulak.tyagi @oq.com  \nAttent ion: Pulak Tyagi  \n \nCONTINENTAL TRADERS\
+          \ PTE LIMITED . \nAddre ss: 80 ROBINSON ROAD, #15 -02, SINGAPORE -068898,\
+          \  \nTEL. No. +65 62276123, 62277180, FAX No. +65 62272061,  \nEmail: continentalTPL@gmail.com\
+          \  \n  \ncontinentalTPL@gmail.com  \nAttention:  Mr H AMZA RAHIMTULA   \n\
+          \ \nCosts and E xpenses  \nAll costs, expenses and liabilities of whatever\
+          \ nature paid or incurred by a Party in relation to \nthe negotiation, \
+          \ preparation and execution of this Agre ement  shall be borne solely by\
+          \ that \nParty.  \nAmendments/Entire Agreement  \nThis Agreement may only\
+          \ be amended by way of the written  agreement of the Parties.   This \n\
+          Agreement comprises the full agreement of the Parties with respect to the\
+          \ subject matter of \nthis Agreement and supersedes all prior  communications,\
+          \ understandings  and agreements \nbetween the P arties in respect of the\
+          \ subject  matter of this Agreement, whether written or oral, \nexpress\
+          \ or implied.   In particular, the Consultant confirms that it has not relied\
+          \ on any pre -\ncontractual statement in entering into this Agree ment.\
+          \  \nExclusion of Third Part y Rights  \nNo term, condi tion or p rovision\
+          \ of this Agreement  shall be enforceable under the Contracts \n(Right of\
+          \ Third Parties) Act 1999 by a person who is not a party to it.  \n -13-\
+          \ \n \n Severability  \nIf at any time any provision of this Agreem ent\
+          \ is or becomes invalid or  illegal in any respect, \nsuch pr ovision shall\
+          \ be deemed to be severed from this Agreement but the validity, legality\
+          \ \nand enforceability of the remaining provisions of this Agreement shall\
+          \ not be affected or \nimpaired thereb y.  In such event, the Parties agr\
+          \ ee to meet as soon as reasonably  practicable in \ngood faith in order\
+          \ to agree within a reasonable time amendments to this Agreement to \nreplace\
+          \ the provisions held to be illegal or invalid so that it shall be replaced\
+          \ by a p rovisi on of \nsubstantially equivale nt effect which is legal,\
+          \ valid and enforceable.  \nWaivers  \nNo failure on the part of a Party\
+          \ to exercise and no delay in exercising, and no course of \ndealing with\
+          \ respect to, any right under this Agreement shall operate as a waiver thereof,\
+          \ nor \nshall any si ngle or partial exercise of any right under this Agreement\
+          \ preclude any other or \nfurther exercise thereof or the exercise of any\
+          \ other right.  \nNon-Assignment  \nNo Party shall assign or otherwise transfer\
+          \ any of its rights and /or ob ligations under this \nAgreeme nt without\
+          \ the prior written con sent of the other Party, provided that OQ may assign\
+          \ \nthis Agreement to an Affiliate without the Consultant\u2019s consent.\
+          \  \nExecution in Counterparts  \nThis Agreement may be executed in any\
+          \ number o f counterparts and by the Parties on \nseparate counterparts,\
+          \ each o f which when so executed and delivered shall be an original, but\
+          \ \nall the counterparts shall together constitute one and the same instrument.\
+          \  \nIN WITNESS WHERE OF, the Parties have executed this Agreement as of\
+          \ the day and year first \nabove written.  \nOQ TRADING LIMITED  \nBy: \n\
+          \   \n Name:  Pulak Tyagi  \n Title:   \nCONTINENTAL TRADERS PTE LIMITED\
+          \ . \n \n  \nBy: ____________________ _____  \n Name: HAMZA RAHIMT ULA \
+          \               \nTitle:  Director  \n\n\nUser Query:\nHello, what are the\
+          \ chances of me wining in I sue the OQ?\n\n<expected_output>\nA percentage\
+          \ likelihood of success in litigation, along with key factors influencing\
+          \ this assessment.\n</expected_output>"
+        created_at: 1743798755
+        from_history: false
+        role: user
+        stop_after_tool_call: false
+      - content: 'Based on the provided Consultancy Services Agreement, here''s an
+          assessment of your potential litigation against OQ Trading Limited (OQ),
+          focusing on Continental Traders PTE Limited''s (your) perspective:
+
+
+          **Overall Probability of Success: 40%**
+
+
+          This is a cautiously optimistic assessment, heavily dependent on the specific
+          breach you allege and the evidence you can produce.  Several factors could
+          significantly raise or lower this percentage.
+
+
+          **Key Strengths for Continental Traders (You):**
+
+
+          *   **Breach of Contract:** If OQ failed to pay fees for services properly
+          rendered under the agreement, you have a prima facie case. Clause 3.1(a)
+          and (b) outlines the fees and expenses OQ is obligated to pay. Clause 3.2
+          states when the Fees shall become payable by OQ. Your strongest position
+          exists if OQ received payment for relevant sale transactions, triggering
+          their obligation to pay you.
+
+          *   **Clear Contract Terms:** The agreement is relatively well-defined,
+          outlining the services, fees, termination conditions, and dispute resolution
+          process. This clarity helps establish a baseline understanding of obligations.
+
+          *   **Termination Clause:** Clauses 6.3 and 6.4 outline the specific conditions
+          under which Continental Traders can terminate the agreement, especially
+          in the event of OQ''s breach or insolvency. If you terminated the contract
+          due to OQ''s breach (e.g. non-payment), and followed the notice requirements,
+          this strengthens your position.
+
+          *   **Governing Law and Jurisdiction:** The agreement specifies English
+          law and the exclusive jurisdiction of English courts (Clause 9 and 10).
+          This provides a predictable legal framework, beneficial if you are familiar
+          with English commercial law.
+
+
+          **Key Weaknesses for Continental Traders (You):**
+
+
+          *   **"No Win, No Fee" Aspect:** Clause 3.2 states that the Fees shall only
+          become payable by OQ once OQ receives payment for the relevant sale transaction(s).
+          This is a significant hurdle. If OQ was *not* awarded the Tender, no Fees
+          are payable, regardless of your efforts.
+
+          *   **Burden of Proof:** You bear the burden of proving OQ received payment
+          for the urea tenders from Government of India (or Nominated Agency). This
+          requires access to OQ''s financial records or other evidence of payment.
+
+          *   **Vague Service Definition:** While the "Services" are listed in the
+          Definitions section, they are broadly defined. Proving you adequately performed
+          these services to the required standard of care (Clause 2.2) might be challenging.
+
+          *   **Termination by OQ without Cause:** Clause 6.1 allows OQ to terminate
+          the agreement with only seven days'' notice "without cause." This means
+          OQ could legally terminate the agreement even if you were performing well,
+          limiting your potential claim to fees accrued *before* termination.
+
+          *   **Consequential Losses Exclusion:** Clause 5.3 excludes liability for
+          indirect or consequential losses. This limits the type of damages you can
+          claim.
+
+          *   **Dispute Resolution:** Clause 10 mandates arbitration under LCIA rules
+          in London, which can be expensive and time-consuming. While it provides
+          a neutral forum, it adds complexity and upfront costs.
+
+
+          **Key Legal Hurdles:**
+
+
+          1.  **Proving OQ Received Payment:** This is the biggest hurdle. You need
+          solid evidence that OQ received payment for the urea tenders to trigger
+          their payment obligation to you.
+
+          2.  **Standard of Care:** If OQ argues your services were substandard, you''ll
+          need evidence to demonstrate you met the "reasonable skill, care, and diligence"
+          standard in providing brokering and introduction services.
+
+          3.  **Causation:** You must establish a direct link between your services
+          and OQ''s sales. If OQ can demonstrate that the sales resulted from other
+          factors, your claim will be weakened.
+
+          4.  **"Without Cause" Termination:** If OQ terminated the agreement under
+          Clause 6.1, your claim is limited to fees earned before the termination
+          date.
+
+
+          **Evidence Gathering Strategies:**
+
+
+          *   **Sales Records:** Demand access to OQ''s sales records related to the
+          urea tenders. If OQ refuses, this could be grounds for seeking discovery
+          in arbitration.
+
+          *   **Communications:** Preserve all emails, meeting minutes, and other
+          communications with OQ regarding your services, sales efforts, and any discussions
+          about payment.
+
+          *   **Witness Testimony:** Identify and interview any witnesses who can
+          corroborate your performance and the value of your services to OQ.
+
+          *   **Expert Testimony:** Consider engaging an expert in the fertilizer
+          trading industry to assess the quality and impact of your services.
+
+          *   **Government of India Tender Documents:** Obtain official tender documents
+          to confirm OQ was awarded the tender and the terms of the award.
+
+
+          **Precedent Cases:**
+
+
+          While I cannot provide specific case citations without knowing the exact
+          nature of your claim and jurisdiction of enforcement, research English contract
+          law cases related to:
+
+
+          *   **Breach of contract for non-payment of services.**
+
+          *   **Interpretation of "no win, no fee" clauses.**
+
+          *   **Standard of care in consultancy agreements.**
+
+          *   **Enforcement of arbitration agreements.**
+
+
+          **Procedural and Jurisdictional Factors:**
+
+
+          *   **LCIA Arbitration:** Familiarize yourself with the LCIA Arbitration
+          Rules. This will govern the arbitration process, including filing deadlines,
+          discovery procedures, and evidentiary standards.
+
+          *   **Enforcement of Award:** If you win in arbitration, you will need to
+          enforce the award in a jurisdiction where OQ has assets. Ensure the award
+          is enforceable in that jurisdiction.
+
+          *   **Limitation Period:** Be aware of the statute of limitations for breach
+          of contract claims in England and Wales (typically six years).
+
+
+          **Balanced Analysis:**
+
+
+          *   **Favorable:** The contract provides a framework for your relationship,
+          including payment terms and dispute resolution. If you can prove OQ received
+          payment for the urea tenders and that you performed your services adequately,
+          you have a reasonable chance of success.
+
+          *   **Unfavorable:** The "no win, no fee" clause is a major obstacle. The
+          broad definition of "Services" and the "without cause" termination clause
+          also present challenges. The requirement to arbitrate in London adds cost
+          and complexity.
+
+
+          **Disclaimer:** This is a preliminary assessment based solely on the provided
+          document. A full legal opinion would require a more detailed understanding
+          of the facts, applicable law, and relevant evidence. I am an AI and cannot
+          provide legal advice. You should consult with an experienced attorney to
+          discuss your specific situation and obtain professional legal guidance.
+
+          '
+        created_at: 1743798755
+        from_history: false
+        metrics:
+          input_tokens: 6735
+          output_tokens: 1366
+          time: 10.231631999999081
+          total_tokens: 8101
+        role: assistant
+        stop_after_tool_call: false
+      metrics:
+        completion_tokens:
+        - 0
+        input_tokens:
+        - 6735
+        output_tokens:
+        - 1366
+        prompt_tokens:
+        - 0
+        time:
+        - 10.231631999999081
+        total_tokens:
+        - 8101
+      model: gemini-2.0-flash
+      run_id: b00c24e7-194b-40f2-9ea1-1020e05e0cc8
+      session_id: 114b204d-3c02-4323-929d-5d67cdd2a147
+      tools: []
+  update_session_summary_after_run: true
+  update_system_message_on_change: false
+  update_user_memories_after_run: true
+session_data:
+  session_metrics:
+    additional_metrics: null
+    completion_tokens: 0
+    completion_tokens_details: null
+    input_tokens: 6735
+    output_tokens: 1366
+    prompt_tokens: 0
+    prompt_tokens_details: null
+    time: 10.231631999999081
+    time_to_first_token: null
+    timer: null
+    total_tokens: 8101
+session_id: 114b204d-3c02-4323-929d-5d67cdd2a147
+team_session_id: 66b4cfad-632a-419e-a3d1-7ce7fd363e01
+updated_at: 1743798765
+user_id: null

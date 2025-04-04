@@ -1,0 +1,437 @@
+agent_data:
+  agent_id: e1055548-3f8d-4193-b263-2da9572b6d7e
+  model:
+    id: gemini-2.0-flash
+    name: Gemini
+    provider: Google
+  name: Litigation Probability Assesor Agent
+agent_id: e1055548-3f8d-4193-b263-2da9572b6d7e
+created_at: 1743798947
+extra_data: null
+memory:
+  create_session_summary: false
+  create_user_memories: false
+  messages:
+  - content: 'You are a specialized legal assistant focused on litigation probability
+      assessment
+
+
+      <instructions>
+
+      - Evaluate strengths and weaknesses of potential litigation cases.
+
+      - Estimate probability of success based on facts provided and applicable law.
+
+      - Identify key legal hurdles that might affect case outcomes.
+
+      - Suggest evidence gathering strategies to strengthen case positions.
+
+      - Highlight precedent cases with similar fact patterns and their outcomes.
+
+      - Assess procedural and jurisdictional factors that may impact case success.
+
+      - Provide balanced analysis of both favorable and unfavorable case aspects.
+
+      </instructions>
+
+
+      <additional_information>
+
+      - Use markdown to format your answers.
+
+      </additional_information>'
+    created_at: 1743798938
+    from_history: false
+    role: system
+    stop_after_tool_call: false
+  - content: 'Our company is considering filing a breach of contract lawsuit against
+      a supplier who failed to deliver critical components on time, causing us to
+      miss our production deadlines and lose an estimated $500,000 in sales. We have
+      the signed contract with clear delivery dates and documentation of all our communications
+      requesting updates. What''s our likelihood of success if we pursue litigation?
+
+
+      <expected_output>
+
+      A percentage representing the likelihood of success in litigation.
+
+      </expected_output>'
+    created_at: 1743798938
+    from_history: false
+    role: user
+    stop_after_tool_call: false
+  - content: "Okay, let's analyze the likelihood of success in your potential breach\
+      \ of contract lawsuit. I will assess the strengths and weaknesses of your case\
+      \ based on the information provided.\n\n**Initial Probability Assessment: 70%\
+      \ - 75%**\n\nThis is a preliminary estimate, and it could shift significantly\
+      \ based on further investigation and discovery. Here's a breakdown of the factors\
+      \ influencing this assessment:\n\n**Strengths of Your Case:**\n\n*   **Signed\
+      \ Contract:** A signed contract with clear delivery dates is the cornerstone\
+      \ of a breach of contract case. This establishes the agreement and the supplier's\
+      \ obligations.\n*   **Missed Delivery Dates:** The supplier's failure to deliver\
+      \ components on time directly violates the contract terms.\n*   **Documentation\
+      \ of Communications:** Your records of communication requesting updates are\
+      \ crucial. They demonstrate that you made reasonable efforts to mitigate damages\
+      \ and kept the supplier informed of the potential consequences of their breach.\
+      \ This also helps establish notice.\n*   **Quantifiable Damages:** The estimated\
+      \ $500,000 in lost sales provides a tangible measure of your damages, which\
+      \ is essential for recovering compensation.\n*   **Causation:** The missed production\
+      \ deadlines directly resulted from the failure to deliver and caused the loss\
+      \ of sales.\n\n**Weaknesses and Potential Hurdles:**\n\n*   **Supplier's Potential\
+      \ Defenses:** The supplier may raise defenses such as:\n    *   **Force Majeure:**\
+      \ The supplier might argue that unforeseen circumstances (natural disasters,\
+      \ pandemics, etc.) made performance impossible. *You'll need to examine the\
+      \ contract's force majeure clause closely to see if it applies.*\n    *   **Impossibility/Impracticability:**\
+      \ They might argue that delivering the components was impossible or commercially\
+      \ impracticable due to unforeseen circumstances. This is a high bar to clear.\n\
+      \    *   **Waiver/Modification:** Did you, through your actions or communications,\
+      \ implicitly waive the delivery deadline or agree to a modification of the contract?\n\
+      \    *   **Failure to Mitigate Damages:** The supplier could argue that you\
+      \ didn't take reasonable steps to mitigate your damages after the breach. For\
+      \ example, did you attempt to find alternative suppliers?\n*   **Proof of Damages:**\
+      \ While you have an estimate of $500,000, you need to be able to *substantiate\
+      \ this claim with solid evidence*. This might include:\n    *   Lost sales data\n\
+      \    *   Market analysis\n    *   Expert testimony (if needed)\n    *   Lost\
+      \ profits calculations.\n*   **Contractual Limitations on Liability:** The contract\
+      \ may contain clauses that limit the supplier's liability for breach, such as\
+      \ capping damages at a certain amount or excluding consequential damages (lost\
+      \ profits). *Carefully review the contract for such clauses.*\n*   **Jurisdictional\
+      \ Issues:** Determine the appropriate jurisdiction for the lawsuit. The contract\
+      \ might specify a particular forum. If not, you'll need to establish jurisdiction\
+      \ based on factors like where the contract was formed, where the breach occurred,\
+      \ and where the supplier does business.\n*   **Statute of Limitations:** Ensure\
+      \ that the statute of limitations for breach of contract in the relevant jurisdiction\
+      \ has not expired.\n\n**Evidence Gathering Strategies:**\n\n*   **Preserve all\
+      \ documents and communications:** Ensure all emails, letters, notes, and electronic\
+      \ records related to the contract and the breach are preserved.\n*   **Gather\
+      \ financial records:** Collect documentation supporting your lost sales and\
+      \ profits, such as invoices, purchase orders, sales projections, and accounting\
+      \ records.\n*   **Identify and interview witnesses:** Identify employees or\
+      \ other individuals who have knowledge of the breach and its impact on your\
+      \ business.\n*   **Obtain expert testimony (if necessary):** Consult with a\
+      \ damages expert to help quantify your losses and provide testimony if needed.\n\
+      *   **Investigate alternative suppliers:** Document your efforts to find alternative\
+      \ suppliers and the reasons why you were unable to do so (if applicable). This\
+      \ strengthens your case against a failure to mitigate damages claim.\n\n**Relevant\
+      \ Precedent (Examples):**\n\n*   Cases involving *force majeure* clauses are\
+      \ highly fact-specific and depend on the wording of the clause and the nature\
+      \ of the event. Research cases in your jurisdiction that interpret similar clauses.\n\
+      *   Cases addressing *lost profits* as damages in breach of contract actions.\
+      \ These cases will outline the requirements for proving lost profits with reasonable\
+      \ certainty.\n*   Cases addressing the duty to mitigate damages. These will\
+      \ show what steps a plaintiff must take to minimize their losses.\n\n**Procedural\
+      \ and Jurisdictional Factors:**\n\n*   **Choice of Law:** The contract might\
+      \ specify which state's law governs the agreement.\n*   **Forum Selection Clause:**\
+      \ The contract might specify the location where lawsuits must be filed.\n* \
+      \  **Personal Jurisdiction:** You must establish that the court has personal\
+      \ jurisdiction over the supplier.\n\n**Recommendations:**\n\n1.  **Thorough\
+      \ Contract Review:** Conduct a comprehensive review of the entire contract,\
+      \ paying close attention to clauses regarding delivery, force majeure, limitations\
+      \ on liability, and dispute resolution.\n2.  **Damages Calculation:** Work with\
+      \ your accounting team to meticulously calculate and document your lost sales\
+      \ and profits.\n3.  **Demand Letter:** Before filing suit, send a formal demand\
+      \ letter to the supplier outlining the breach, your damages, and your intent\
+      \ to pursue legal action if the matter is not resolved. This can sometimes lead\
+      \ to a settlement.\n4.  **Consult with Legal Counsel:** It is essential to consult\
+      \ with an experienced attorney in your jurisdiction to discuss the specifics\
+      \ of your case, assess the applicable law, and develop a litigation strategy.\n\
+      \n**Disclaimer:** This analysis is based on the limited information you have\
+      \ provided and is for informational purposes only. It is not a substitute for\
+      \ legal advice from a qualified attorney. The actual likelihood of success in\
+      \ litigation can only be determined after a thorough investigation and legal\
+      \ analysis.\n"
+    created_at: 1743798938
+    from_history: false
+    metrics:
+      input_tokens: 224
+      output_tokens: 1207
+      time: 8.981959417003964
+      total_tokens: 1431
+    role: assistant
+    stop_after_tool_call: false
+  runs:
+  - message:
+      content: 'Our company is considering filing a breach of contract lawsuit against
+        a supplier who failed to deliver critical components on time, causing us to
+        miss our production deadlines and lose an estimated $500,000 in sales. We
+        have the signed contract with clear delivery dates and documentation of all
+        our communications requesting updates. What''s our likelihood of success if
+        we pursue litigation?
+
+
+        <expected_output>
+
+        A percentage representing the likelihood of success in litigation.
+
+        </expected_output>'
+      created_at: 1743798938
+      from_history: false
+      role: user
+      stop_after_tool_call: false
+    response:
+      agent_id: e1055548-3f8d-4193-b263-2da9572b6d7e
+      content: "Okay, let's analyze the likelihood of success in your potential breach\
+        \ of contract lawsuit. I will assess the strengths and weaknesses of your\
+        \ case based on the information provided.\n\n**Initial Probability Assessment:\
+        \ 70% - 75%**\n\nThis is a preliminary estimate, and it could shift significantly\
+        \ based on further investigation and discovery. Here's a breakdown of the\
+        \ factors influencing this assessment:\n\n**Strengths of Your Case:**\n\n\
+        *   **Signed Contract:** A signed contract with clear delivery dates is the\
+        \ cornerstone of a breach of contract case. This establishes the agreement\
+        \ and the supplier's obligations.\n*   **Missed Delivery Dates:** The supplier's\
+        \ failure to deliver components on time directly violates the contract terms.\n\
+        *   **Documentation of Communications:** Your records of communication requesting\
+        \ updates are crucial. They demonstrate that you made reasonable efforts to\
+        \ mitigate damages and kept the supplier informed of the potential consequences\
+        \ of their breach. This also helps establish notice.\n*   **Quantifiable Damages:**\
+        \ The estimated $500,000 in lost sales provides a tangible measure of your\
+        \ damages, which is essential for recovering compensation.\n*   **Causation:**\
+        \ The missed production deadlines directly resulted from the failure to deliver\
+        \ and caused the loss of sales.\n\n**Weaknesses and Potential Hurdles:**\n\
+        \n*   **Supplier's Potential Defenses:** The supplier may raise defenses such\
+        \ as:\n    *   **Force Majeure:** The supplier might argue that unforeseen\
+        \ circumstances (natural disasters, pandemics, etc.) made performance impossible.\
+        \ *You'll need to examine the contract's force majeure clause closely to see\
+        \ if it applies.*\n    *   **Impossibility/Impracticability:** They might\
+        \ argue that delivering the components was impossible or commercially impracticable\
+        \ due to unforeseen circumstances. This is a high bar to clear.\n    *   **Waiver/Modification:**\
+        \ Did you, through your actions or communications, implicitly waive the delivery\
+        \ deadline or agree to a modification of the contract?\n    *   **Failure\
+        \ to Mitigate Damages:** The supplier could argue that you didn't take reasonable\
+        \ steps to mitigate your damages after the breach. For example, did you attempt\
+        \ to find alternative suppliers?\n*   **Proof of Damages:** While you have\
+        \ an estimate of $500,000, you need to be able to *substantiate this claim\
+        \ with solid evidence*. This might include:\n    *   Lost sales data\n   \
+        \ *   Market analysis\n    *   Expert testimony (if needed)\n    *   Lost\
+        \ profits calculations.\n*   **Contractual Limitations on Liability:** The\
+        \ contract may contain clauses that limit the supplier's liability for breach,\
+        \ such as capping damages at a certain amount or excluding consequential damages\
+        \ (lost profits). *Carefully review the contract for such clauses.*\n*   **Jurisdictional\
+        \ Issues:** Determine the appropriate jurisdiction for the lawsuit. The contract\
+        \ might specify a particular forum. If not, you'll need to establish jurisdiction\
+        \ based on factors like where the contract was formed, where the breach occurred,\
+        \ and where the supplier does business.\n*   **Statute of Limitations:** Ensure\
+        \ that the statute of limitations for breach of contract in the relevant jurisdiction\
+        \ has not expired.\n\n**Evidence Gathering Strategies:**\n\n*   **Preserve\
+        \ all documents and communications:** Ensure all emails, letters, notes, and\
+        \ electronic records related to the contract and the breach are preserved.\n\
+        *   **Gather financial records:** Collect documentation supporting your lost\
+        \ sales and profits, such as invoices, purchase orders, sales projections,\
+        \ and accounting records.\n*   **Identify and interview witnesses:** Identify\
+        \ employees or other individuals who have knowledge of the breach and its\
+        \ impact on your business.\n*   **Obtain expert testimony (if necessary):**\
+        \ Consult with a damages expert to help quantify your losses and provide testimony\
+        \ if needed.\n*   **Investigate alternative suppliers:** Document your efforts\
+        \ to find alternative suppliers and the reasons why you were unable to do\
+        \ so (if applicable). This strengthens your case against a failure to mitigate\
+        \ damages claim.\n\n**Relevant Precedent (Examples):**\n\n*   Cases involving\
+        \ *force majeure* clauses are highly fact-specific and depend on the wording\
+        \ of the clause and the nature of the event. Research cases in your jurisdiction\
+        \ that interpret similar clauses.\n*   Cases addressing *lost profits* as\
+        \ damages in breach of contract actions. These cases will outline the requirements\
+        \ for proving lost profits with reasonable certainty.\n*   Cases addressing\
+        \ the duty to mitigate damages. These will show what steps a plaintiff must\
+        \ take to minimize their losses.\n\n**Procedural and Jurisdictional Factors:**\n\
+        \n*   **Choice of Law:** The contract might specify which state's law governs\
+        \ the agreement.\n*   **Forum Selection Clause:** The contract might specify\
+        \ the location where lawsuits must be filed.\n*   **Personal Jurisdiction:**\
+        \ You must establish that the court has personal jurisdiction over the supplier.\n\
+        \n**Recommendations:**\n\n1.  **Thorough Contract Review:** Conduct a comprehensive\
+        \ review of the entire contract, paying close attention to clauses regarding\
+        \ delivery, force majeure, limitations on liability, and dispute resolution.\n\
+        2.  **Damages Calculation:** Work with your accounting team to meticulously\
+        \ calculate and document your lost sales and profits.\n3.  **Demand Letter:**\
+        \ Before filing suit, send a formal demand letter to the supplier outlining\
+        \ the breach, your damages, and your intent to pursue legal action if the\
+        \ matter is not resolved. This can sometimes lead to a settlement.\n4.  **Consult\
+        \ with Legal Counsel:** It is essential to consult with an experienced attorney\
+        \ in your jurisdiction to discuss the specifics of your case, assess the applicable\
+        \ law, and develop a litigation strategy.\n\n**Disclaimer:** This analysis\
+        \ is based on the limited information you have provided and is for informational\
+        \ purposes only. It is not a substitute for legal advice from a qualified\
+        \ attorney. The actual likelihood of success in litigation can only be determined\
+        \ after a thorough investigation and legal analysis.\n"
+      content_type: str
+      created_at: 1743798699
+      event: RunResponse
+      messages:
+      - content: 'You are a specialized legal assistant focused on litigation probability
+          assessment
+
+
+          <instructions>
+
+          - Evaluate strengths and weaknesses of potential litigation cases.
+
+          - Estimate probability of success based on facts provided and applicable
+          law.
+
+          - Identify key legal hurdles that might affect case outcomes.
+
+          - Suggest evidence gathering strategies to strengthen case positions.
+
+          - Highlight precedent cases with similar fact patterns and their outcomes.
+
+          - Assess procedural and jurisdictional factors that may impact case success.
+
+          - Provide balanced analysis of both favorable and unfavorable case aspects.
+
+          </instructions>
+
+
+          <additional_information>
+
+          - Use markdown to format your answers.
+
+          </additional_information>'
+        created_at: 1743798938
+        from_history: false
+        role: system
+        stop_after_tool_call: false
+      - content: 'Our company is considering filing a breach of contract lawsuit against
+          a supplier who failed to deliver critical components on time, causing us
+          to miss our production deadlines and lose an estimated $500,000 in sales.
+          We have the signed contract with clear delivery dates and documentation
+          of all our communications requesting updates. What''s our likelihood of
+          success if we pursue litigation?
+
+
+          <expected_output>
+
+          A percentage representing the likelihood of success in litigation.
+
+          </expected_output>'
+        created_at: 1743798938
+        from_history: false
+        role: user
+        stop_after_tool_call: false
+      - content: "Okay, let's analyze the likelihood of success in your potential\
+          \ breach of contract lawsuit. I will assess the strengths and weaknesses\
+          \ of your case based on the information provided.\n\n**Initial Probability\
+          \ Assessment: 70% - 75%**\n\nThis is a preliminary estimate, and it could\
+          \ shift significantly based on further investigation and discovery. Here's\
+          \ a breakdown of the factors influencing this assessment:\n\n**Strengths\
+          \ of Your Case:**\n\n*   **Signed Contract:** A signed contract with clear\
+          \ delivery dates is the cornerstone of a breach of contract case. This establishes\
+          \ the agreement and the supplier's obligations.\n*   **Missed Delivery Dates:**\
+          \ The supplier's failure to deliver components on time directly violates\
+          \ the contract terms.\n*   **Documentation of Communications:** Your records\
+          \ of communication requesting updates are crucial. They demonstrate that\
+          \ you made reasonable efforts to mitigate damages and kept the supplier\
+          \ informed of the potential consequences of their breach. This also helps\
+          \ establish notice.\n*   **Quantifiable Damages:** The estimated $500,000\
+          \ in lost sales provides a tangible measure of your damages, which is essential\
+          \ for recovering compensation.\n*   **Causation:** The missed production\
+          \ deadlines directly resulted from the failure to deliver and caused the\
+          \ loss of sales.\n\n**Weaknesses and Potential Hurdles:**\n\n*   **Supplier's\
+          \ Potential Defenses:** The supplier may raise defenses such as:\n    *\
+          \   **Force Majeure:** The supplier might argue that unforeseen circumstances\
+          \ (natural disasters, pandemics, etc.) made performance impossible. *You'll\
+          \ need to examine the contract's force majeure clause closely to see if\
+          \ it applies.*\n    *   **Impossibility/Impracticability:** They might argue\
+          \ that delivering the components was impossible or commercially impracticable\
+          \ due to unforeseen circumstances. This is a high bar to clear.\n    * \
+          \  **Waiver/Modification:** Did you, through your actions or communications,\
+          \ implicitly waive the delivery deadline or agree to a modification of the\
+          \ contract?\n    *   **Failure to Mitigate Damages:** The supplier could\
+          \ argue that you didn't take reasonable steps to mitigate your damages after\
+          \ the breach. For example, did you attempt to find alternative suppliers?\n\
+          *   **Proof of Damages:** While you have an estimate of $500,000, you need\
+          \ to be able to *substantiate this claim with solid evidence*. This might\
+          \ include:\n    *   Lost sales data\n    *   Market analysis\n    *   Expert\
+          \ testimony (if needed)\n    *   Lost profits calculations.\n*   **Contractual\
+          \ Limitations on Liability:** The contract may contain clauses that limit\
+          \ the supplier's liability for breach, such as capping damages at a certain\
+          \ amount or excluding consequential damages (lost profits). *Carefully review\
+          \ the contract for such clauses.*\n*   **Jurisdictional Issues:** Determine\
+          \ the appropriate jurisdiction for the lawsuit. The contract might specify\
+          \ a particular forum. If not, you'll need to establish jurisdiction based\
+          \ on factors like where the contract was formed, where the breach occurred,\
+          \ and where the supplier does business.\n*   **Statute of Limitations:**\
+          \ Ensure that the statute of limitations for breach of contract in the relevant\
+          \ jurisdiction has not expired.\n\n**Evidence Gathering Strategies:**\n\n\
+          *   **Preserve all documents and communications:** Ensure all emails, letters,\
+          \ notes, and electronic records related to the contract and the breach are\
+          \ preserved.\n*   **Gather financial records:** Collect documentation supporting\
+          \ your lost sales and profits, such as invoices, purchase orders, sales\
+          \ projections, and accounting records.\n*   **Identify and interview witnesses:**\
+          \ Identify employees or other individuals who have knowledge of the breach\
+          \ and its impact on your business.\n*   **Obtain expert testimony (if necessary):**\
+          \ Consult with a damages expert to help quantify your losses and provide\
+          \ testimony if needed.\n*   **Investigate alternative suppliers:** Document\
+          \ your efforts to find alternative suppliers and the reasons why you were\
+          \ unable to do so (if applicable). This strengthens your case against a\
+          \ failure to mitigate damages claim.\n\n**Relevant Precedent (Examples):**\n\
+          \n*   Cases involving *force majeure* clauses are highly fact-specific and\
+          \ depend on the wording of the clause and the nature of the event. Research\
+          \ cases in your jurisdiction that interpret similar clauses.\n*   Cases\
+          \ addressing *lost profits* as damages in breach of contract actions. These\
+          \ cases will outline the requirements for proving lost profits with reasonable\
+          \ certainty.\n*   Cases addressing the duty to mitigate damages. These will\
+          \ show what steps a plaintiff must take to minimize their losses.\n\n**Procedural\
+          \ and Jurisdictional Factors:**\n\n*   **Choice of Law:** The contract might\
+          \ specify which state's law governs the agreement.\n*   **Forum Selection\
+          \ Clause:** The contract might specify the location where lawsuits must\
+          \ be filed.\n*   **Personal Jurisdiction:** You must establish that the\
+          \ court has personal jurisdiction over the supplier.\n\n**Recommendations:**\n\
+          \n1.  **Thorough Contract Review:** Conduct a comprehensive review of the\
+          \ entire contract, paying close attention to clauses regarding delivery,\
+          \ force majeure, limitations on liability, and dispute resolution.\n2. \
+          \ **Damages Calculation:** Work with your accounting team to meticulously\
+          \ calculate and document your lost sales and profits.\n3.  **Demand Letter:**\
+          \ Before filing suit, send a formal demand letter to the supplier outlining\
+          \ the breach, your damages, and your intent to pursue legal action if the\
+          \ matter is not resolved. This can sometimes lead to a settlement.\n4. \
+          \ **Consult with Legal Counsel:** It is essential to consult with an experienced\
+          \ attorney in your jurisdiction to discuss the specifics of your case, assess\
+          \ the applicable law, and develop a litigation strategy.\n\n**Disclaimer:**\
+          \ This analysis is based on the limited information you have provided and\
+          \ is for informational purposes only. It is not a substitute for legal advice\
+          \ from a qualified attorney. The actual likelihood of success in litigation\
+          \ can only be determined after a thorough investigation and legal analysis.\n"
+        created_at: 1743798938
+        from_history: false
+        metrics:
+          input_tokens: 224
+          output_tokens: 1207
+          time: 8.981959417003964
+          total_tokens: 1431
+        role: assistant
+        stop_after_tool_call: false
+      metrics:
+        completion_tokens:
+        - 0
+        input_tokens:
+        - 224
+        output_tokens:
+        - 1207
+        prompt_tokens:
+        - 0
+        time:
+        - 8.981959417003964
+        total_tokens:
+        - 1431
+      model: gemini-2.0-flash
+      run_id: 23a6adfe-16ed-4060-8b2e-d0ff8c0d5233
+      session_id: 49eba5be-0839-49b9-ad39-3cb3217c6c8b
+      tools: []
+  update_session_summary_after_run: true
+  update_system_message_on_change: false
+  update_user_memories_after_run: true
+session_data:
+  session_metrics:
+    additional_metrics: null
+    completion_tokens: 0
+    completion_tokens_details: null
+    input_tokens: 224
+    output_tokens: 1207
+    prompt_tokens: 0
+    prompt_tokens_details: null
+    time: 8.981959417003964
+    time_to_first_token: null
+    timer: null
+    total_tokens: 1431
+session_id: 49eba5be-0839-49b9-ad39-3cb3217c6c8b
+team_session_id: 1cf867dd-9864-4bf7-986c-50af042d05f4
+updated_at: 1743798947
+user_id: null

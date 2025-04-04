@@ -24,6 +24,10 @@
       rel="stylesheet"
       href="{{ url_for('static', path='/css/tailwind-fixes.css') }}"
     />
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', path='/css/fix-layout.css') }}"
+    />
 
     <!-- Tailwind CSS and Typography plugin -->
     <script src="https://cdn.tailwindcss.com"></script>
@@ -155,6 +159,20 @@
             </li>
           </ul>
         </nav>
+
+        <!-- Lady Justice Image -->
+        <div class="lady-justice-container">
+          <div class="lady-justice-image"></div>
+          <div class="lady-justice-overlay"></div>
+          <div class="lady-justice-border"></div>
+          <div class="lady-justice-quote">
+            <p class="quote-text">
+              "Justice is the constant and perpetual will to allot to every man
+              his due."
+            </p>
+            <p class="quote-author">- Justinian I</p>
+          </div>
+        </div>
       </aside>
 
       <!-- Main Content -->
@@ -224,12 +242,6 @@
               <div class="message-time">10:32 AM</div>
               <div class="message-actions">
                 <button class="action-btn"><i class="fas fa-copy"></i></button>
-                <button class="action-btn">
-                  <i class="fas fa-bookmark"></i>
-                </button>
-                <button class="action-btn">
-                  <i class="fas fa-thumbs-up"></i>
-                </button>
               </div>
             </div>
           </div>

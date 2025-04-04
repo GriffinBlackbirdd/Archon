@@ -278,8 +278,6 @@ document.addEventListener("DOMContentLoaded", function () {
               <div class="message-time">${timeString}</div>
               <div class="message-actions">
                   <button class="action-btn" title="Copy to clipboard"><i class="fas fa-copy"></i></button>
-                  <button class="action-btn" title="Save for later"><i class="fas fa-bookmark"></i></button>
-                  <button class="action-btn" title="Mark as helpful"><i class="fas fa-thumbs-up"></i></button>
               </div>
           `;
     } else if (type === "system") {

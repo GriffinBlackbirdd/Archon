@@ -1,0 +1,89 @@
+/* ======================================
+   DIRECT LAYOUT FIX - FORCE FULL WIDTH
+   ====================================== */
+
+/* Force main container to take full width */
+.container {
+  width: 100vw !important;
+  max-width: 100vw !important;
+  display: flex !important;
+  box-sizing: border-box !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow: hidden !important;
+}
+
+/* Force main content to fill remaining space */
+.main-content {
+  flex: 1 !important;
+  width: calc(100vw - var(--sidebar-width)) !important;
+  max-width: calc(100vw - var(--sidebar-width)) !important;
+  box-sizing: border-box !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow-x: hidden !important;
+}
+
+/* Fix header width */
+.header {
+  width: 100% !important;
+  max-width: none !important;
+  box-sizing: border-box !important;
+  margin: 0 !important;
+}
+
+/* Fix chat container width */
+.chat-container {
+  width: 100% !important;
+  max-width: none !important;
+  box-sizing: border-box !important;
+  padding-left: 35px !important;
+  padding-right: 35px !important;
+  margin: 0 !important;
+}
+
+/* Fix chat messages area */
+.chat-messages {
+  width: 100% !important;
+  max-width: none !important;
+  box-sizing: border-box !important;
+}
+
+/* Fix chat input container */
+.chat-input-container {
+  width: 100% !important;
+  max-width: none !important;
+  box-sizing: border-box !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+/* Balance message widths */
+.message {
+  box-sizing: border-box !important;
+  max-width: 85% !important;
+}
+
+.message.user {
+  margin-left: auto !important;
+  margin-right: 0 !important;
+}
+
+.message.ai {
+  margin-left: 0 !important;
+  margin-right: auto !important;
+}
+
+/* Background grid fix */
+.background,
+.grid-overlay,
+.blur-overlay {
+  width: 100vw !important;
+  max-width: 100vw !important;
+}
+
+/* Debug outline - uncomment to see element boundaries
+* {
+  outline: 1px solid red !important;
+}
+*/

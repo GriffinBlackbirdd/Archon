@@ -2,6 +2,7 @@ from agno.agent import Agent
 from agno.team.team import Team
 from agno.models.google import Gemini
 from agno.tools.exa import ExaTools
+from agno.storage.yaml import YamlStorage
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -16,6 +17,7 @@ def caseEvaluationAG(prompt, content=None):
     litigationProbabilityAssessor = Agent(
         name="Litigation Probability Assesor Agent",
         model=Gemini("gemini-2.0-flash"),
+        storage=YamlStorage(dir_path="agentSessionsYaml"),
         description="You are a specialized legal assistant focused on litigation probability assessment",
         instructions=[
             "Evaluate strengths and weaknesses of potential litigation cases.",
@@ -26,6 +28,7 @@ def caseEvaluationAG(prompt, content=None):
             "Assess procedural and jurisdictional factors that may impact case success.",
             "Provide balanced analysis of both favorable and unfavorable case aspects.",
         ],
+        add_history_to_messages=True,
         markdown=True,
         debug_mode=True,
     )
@@ -34,6 +37,7 @@ def caseEvaluationAG(prompt, content=None):
     settlementValueCalculator = Agent(
         name="Settlement Value Calculator Agent",
         model=Gemini("gemini-2.0-flash"),
+        storage=YamlStorage(dir_path="agentSessionsYaml"),
         description="You are a specialized legal assistant focused on settlement value analysis",
         instructions=[
             "Analyze potential settlement values based on similar case precedents.",
@@ -44,6 +48,7 @@ def caseEvaluationAG(prompt, content=None):
             "Consider jurisdiction-specific settlement trends when relevant.",
             "Factor in both economic and non-economic damages in valuations.",
         ],
+        add_history_to_messages=True,
         markdown=True,
         debug_mode=True,
     )
@@ -52,6 +57,7 @@ def caseEvaluationAG(prompt, content=None):
     caseStrategyAdvisor = Agent(
         name="Case Strategy Advisor Agent",
         model=Gemini("gemini-2.0-flash"),
+        storage=YamlStorage(dir_path="agentSessionsYaml"),
         description="You are a specialized legal assistant focused on legal case strategy",
         instructions=[
             "Suggest potential legal strategies for specific case types.",
@@ -62,6 +68,7 @@ def caseEvaluationAG(prompt, content=None):
             "Identify key decision points in the litigation process.",
             "Suggest appropriate alternative dispute resolution options when relevant.",
         ],
+        add_history_to_messages=True,
         markdown=True,
         debug_mode=True,
     )
@@ -70,6 +77,7 @@ def caseEvaluationAG(prompt, content=None):
     expertWitnessFinder = Agent(
         name="Export Witness Finder Agent",
         model=Gemini("gemini-2.0-flash"),
+        storage=YamlStorage(dir_path="agentSessionsYaml"),
         description="You are a specialized legal assistant focused on expert witness selection",
         instructions=[
             "Identify types of expert witnesses needed for specific case types.",
@@ -80,6 +88,7 @@ def caseEvaluationAG(prompt, content=None):
             "Provide guidance on expert witness report requirements.",
             "Suggest strategies for effective expert witness preparation.",
         ],
+        add_history_to_messages=True,
         markdown=True,
         debug_mode=True,
     )
@@ -88,6 +97,7 @@ def caseEvaluationAG(prompt, content=None):
     clientIntakeAnalyzer = Agent(
         name="Client Intake Analyzer Agent",
         model=Gemini("gemini-2.0-flash"),
+        storage=YamlStorage(dir_path="agentSessionsYaml"),
         description="You are a specialized legal assistant focused on initial case assessment",
         instructions=[
             "Process initial client information to identify key legal issues.",
@@ -98,6 +108,7 @@ def caseEvaluationAG(prompt, content=None):
             "Recognize potential conflicts of interest from initial information.",
             "Organize client information in a structured format for attorney review.",
         ],
+        add_history_to_messages=True,
         markdown=True,
         debug_mode=True,
     )
