@@ -3,12 +3,18 @@ from agno.team.team import Team
 from agno.models.google import Gemini
 from agno.tools.exa import ExaTools
 from dotenv import load_dotenv
+
 load_dotenv()
 
-def documentReviewAG(prompt):
+
+def documentReviewAG(prompt, content=None):
+    if content:
+        enhancedPrompt = f"File Content:\n{content}\n\nUser Query:\n{prompt}"
+    else:
+        enhancedPrompt = prompt
     # Contract Analyzer Agent
     contractAnalyzer = Agent(
-        name = "Contract Analyzer Agent",
+        name="Contract Analyzer Agent",
         model=Gemini("gemini-2.0-flash"),
         description="You are a specialized legal assistant focused on contract analysis",
         instructions=[
@@ -18,7 +24,7 @@ def documentReviewAG(prompt):
             "Highlight missing provisions that should be included for better protection.",
             "Identify potential enforcement challenges in contractual language.",
             "Flag unusual terms that deviate from industry standards.",
-            "Present analysis in a structured format with clear recommendations."
+            "Present analysis in a structured format with clear recommendations.",
         ],
         markdown=True,
         debug_mode=True,
@@ -26,7 +32,7 @@ def documentReviewAG(prompt):
 
     # NDA Specialist Agent
     ndaSpecialist = Agent(
-        name = "NDA Specialist Agent",
+        name="NDA Specialist Agent",
         model=Gemini("gemini-2.0-flash"),
         description="You are a specialized legal assistant focused on non-disclosure agreements",
         instructions=[
@@ -36,7 +42,7 @@ def documentReviewAG(prompt):
             "Evaluate exceptions to confidentiality obligations for reasonableness.",
             "Suggest modifications to strengthen confidentiality protection.",
             "Assess remedies and enforcement mechanisms in NDAs.",
-            "Highlight jurisdiction-specific NDA requirements and issues."
+            "Highlight jurisdiction-specific NDA requirements and issues.",
         ],
         markdown=True,
         debug_mode=True,
@@ -44,7 +50,7 @@ def documentReviewAG(prompt):
 
     # Employment Document Reviewer Agent
     employmentDocumentReviewer = Agent(
-        name = "Employment Document Reviewer Agent",
+        name="Employment Document Reviewer Agent",
         model=Gemini("gemini-2.0-flash"),
         description="You are a specialized legal assistant focused on employment documents",
         instructions=[
@@ -54,7 +60,7 @@ def documentReviewAG(prompt):
             "Evaluate clarity of employment terms, conditions, and expectations.",
             "Assess appropriate classification of employees vs. independent contractors.",
             "Review termination provisions and processes for legal compliance.",
-            "Highlight missing employment policies that should be included."
+            "Highlight missing employment policies that should be included.",
         ],
         markdown=True,
         debug_mode=True,
@@ -62,7 +68,7 @@ def documentReviewAG(prompt):
 
     # Intellectual Property Document Analyst Agent
     ipDocumentAnalyst = Agent(
-        name = "IP Document Analyzer",
+        name="IP Document Analyzer",
         model=Gemini("gemini-2.0-flash"),
         description="You are a specialized legal assistant focused on intellectual property documents",
         instructions=[
@@ -72,7 +78,7 @@ def documentReviewAG(prompt):
             "Evaluate IP ownership and transfer provisions.",
             "Assess licensing terms for appropriate restrictions and permissions.",
             "Review IP enforcement and remedies provisions.",
-            "Highlight territorial limitations in IP protection documents."
+            "Highlight territorial limitations in IP protection documents.",
         ],
         markdown=True,
         debug_mode=True,
@@ -80,7 +86,7 @@ def documentReviewAG(prompt):
 
     # Legal Document Formatter Agent
     legalDocumentFormatter = Agent(
-        name = "Legal Document Formatter",
+        name="Legal Document Formatter",
         model=Gemini("gemini-2.0-flash"),
         description="You are a specialized legal assistant focused on document formatting and standards",
         instructions=[
@@ -90,7 +96,7 @@ def documentReviewAG(prompt):
             "Verify proper document structure and organization.",
             "Ensure consistent terminology usage throughout documents.",
             "Check for appropriate signature blocks and execution requirements.",
-            "Format documents for maximum readability and legal effectiveness."
+            "Format documents for maximum readability and legal effectiveness.",
         ],
         markdown=True,
         debug_mode=True,
@@ -122,12 +128,13 @@ def documentReviewAG(prompt):
             "Always include a brief explanation of why you routed to a particular agent.",
             "If a user submits a document that doesn't fit within these categories, politely explain the team's capabilities and suggest which agent might be most helpful.",
             "Always remind users that these agents provide informational document review only and not legal advice.",
-            "Request that users specify the jurisdiction relevant to their document when applicable."
+            "Request that users specify the jurisdiction relevant to their document when applicable.",
         ],
         show_members_responses=True,
     )
-    response = documentReviewTeam.run(prompt)
-    print(response.content)
+    response = documentReviewTeam.run(enhancedPrompt)
+    return response.content
+
 
 # # Question for the Contract Analyzer
 # document_review_team.print_response(

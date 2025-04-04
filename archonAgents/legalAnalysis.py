@@ -3,12 +3,19 @@ from agno.team.team import Team
 from agno.models.google import Gemini
 from agno.tools.exa import ExaTools
 from dotenv import load_dotenv
+
 load_dotenv()
 
-def legalAnalysisAG(prompt):
+
+def legalAnalysisAG(prompt, content=None):
+    if content:
+        enhancedPrompt = f"File Content:\n{content}\n\nUser Query:\n{prompt}"
+    else:
+        enhancedPrompt = prompt
+
     # Statutory Interpreter Agent
     statutoryInterpreter = Agent(
-        name = "Statutory Interpreter Agent",
+        name="Statutory Interpreter Agent",
         model=Gemini("gemini-2.0-flash"),
         description="You are a specialized legal assistant focused on statutory interpretation",
         instructions=[
@@ -17,7 +24,7 @@ def legalAnalysisAG(prompt):
             "Explain legal terminology in plain language that non-lawyers can understand.",
             "When citing statutes, include the specific section numbers and relevant jurisdictional information.",
             "Clarify when there may be multiple interpretations of a statute.",
-            "Always note that your analysis is informational and not a substitute for personalized legal advice."
+            "Always note that your analysis is informational and not a substitute for personalized legal advice.",
         ],
         markdown=True,
         debug_mode=True,
@@ -25,7 +32,7 @@ def legalAnalysisAG(prompt):
 
     # Case Law Analyzer Agent
     caseLawAnalyzer = Agent(
-        name = "Case Law Analyzer Agent",
+        name="Case Law Analyzer Agent",
         model=Gemini("gemini-2.0-flash"),
         description="You are a specialized legal assistant focused on case law analysis",
         instructions=[
@@ -35,7 +42,7 @@ def legalAnalysisAG(prompt):
             "Highlight majority and minority opinions in significant cases.",
             "Explain the reasoning behind relevant court decisions.",
             "Identify potential distinctions between precedent cases and the user's situation.",
-            "Always include appropriate citations when referencing case law."
+            "Always include appropriate citations when referencing case law.",
         ],
         markdown=True,
         debug_mode=True,
@@ -43,7 +50,7 @@ def legalAnalysisAG(prompt):
 
     # Legal Risk Assessor Agent
     legalRiskAssessor = Agent(
-        name = "Legal Risk Accessor Agent",
+        name="Legal Risk Accessor Agent",
         model=Gemini("gemini-2.0-flash"),
         description="You are a specialized legal assistant focused on legal risk assessment",
         instructions=[
@@ -53,7 +60,7 @@ def legalAnalysisAG(prompt):
             "Suggest mitigation strategies for identified legal risks.",
             "Balance explanations of risks with potential business benefits where appropriate.",
             "Identify areas where additional legal expertise may be necessary.",
-            "Present risk assessments in a structured, clear format."
+            "Present risk assessments in a structured, clear format.",
         ],
         markdown=True,
         debug_mode=True,
@@ -61,7 +68,7 @@ def legalAnalysisAG(prompt):
 
     # Compliance Checker Agent
     complianceChecker = Agent(
-        name = "Compliance Checker Agent",
+        name="Compliance Checker Agent",
         model=Gemini("gemini-2.0-flash"),
         description="You are a specialized legal assistant focused on regulatory compliance",
         instructions=[
@@ -71,7 +78,7 @@ def legalAnalysisAG(prompt):
             "Provide information about relevant regulatory authorities.",
             "Explain the potential consequences of non-compliance.",
             "Structure compliance reviews in a clear, actionable format.",
-            "Prioritize compliance issues based on potential risk levels."
+            "Prioritize compliance issues based on potential risk levels.",
         ],
         markdown=True,
         debug_mode=True,
@@ -79,9 +86,9 @@ def legalAnalysisAG(prompt):
 
     # Legal Research Assistant Agent
     legalResearchAssistant = Agent(
-        name = "Legal Research Assistant Agent",
+        name="Legal Research Assistant Agent",
         model=Gemini("gemini-2.0-flash"),
-        tools=[ExaTools(answer = True)],
+        tools=[ExaTools(answer=True)],
         description="You are a specialized legal assistant focused on comprehensive legal research",
         instructions=[
             "Conduct thorough legal research on specific topics requested by users.",
@@ -90,7 +97,7 @@ def legalAnalysisAG(prompt):
             "Organize research findings in a logical, accessible manner.",
             "Highlight conflicting viewpoints or interpretations when they exist.",
             "Identify emerging legal trends relevant to the research topic.",
-            "Suggest additional research avenues when appropriate."
+            "Suggest additional research avenues when appropriate.",
         ],
         markdown=True,
         debug_mode=True,
@@ -125,8 +132,9 @@ def legalAnalysisAG(prompt):
         show_members_responses=True,
     )
 
-    response = legalAnalysisTeam.run(prompt)
-    print(response.content)
+    response = legalAnalysisTeam.run(enhancedPrompt)
+    return response.content
+
 
 # # Question for the Statutory Interpreter
 # legal_analysis_team.print_response(

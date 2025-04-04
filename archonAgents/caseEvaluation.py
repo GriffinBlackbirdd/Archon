@@ -3,12 +3,18 @@ from agno.team.team import Team
 from agno.models.google import Gemini
 from agno.tools.exa import ExaTools
 from dotenv import load_dotenv
+
 load_dotenv()
 
-def caseEvaluationAG(prompt):
+
+def caseEvaluationAG(prompt, content=None):
+    if content:
+        enhancedPrompt = f"File Content:\n{content}\n\nUser Query:\n{prompt}"
+    else:
+        enhancedPrompt = prompt
     # Litigation Probability Assessor Agent
     litigationProbabilityAssessor = Agent(
-        name = "Litigation Probability Assesor Agent",
+        name="Litigation Probability Assesor Agent",
         model=Gemini("gemini-2.0-flash"),
         description="You are a specialized legal assistant focused on litigation probability assessment",
         instructions=[
@@ -18,7 +24,7 @@ def caseEvaluationAG(prompt):
             "Suggest evidence gathering strategies to strengthen case positions.",
             "Highlight precedent cases with similar fact patterns and their outcomes.",
             "Assess procedural and jurisdictional factors that may impact case success.",
-            "Provide balanced analysis of both favorable and unfavorable case aspects."
+            "Provide balanced analysis of both favorable and unfavorable case aspects.",
         ],
         markdown=True,
         debug_mode=True,
@@ -26,7 +32,7 @@ def caseEvaluationAG(prompt):
 
     # Settlement Value Calculator Agent
     settlementValueCalculator = Agent(
-        name = "Settlement Value Calculator Agent",
+        name="Settlement Value Calculator Agent",
         model=Gemini("gemini-2.0-flash"),
         description="You are a specialized legal assistant focused on settlement value analysis",
         instructions=[
@@ -36,7 +42,7 @@ def caseEvaluationAG(prompt):
             "Compare potential settlement value against likely litigation costs.",
             "Analyze risk-adjusted values of proceeding to trial versus settling.",
             "Consider jurisdiction-specific settlement trends when relevant.",
-            "Factor in both economic and non-economic damages in valuations."
+            "Factor in both economic and non-economic damages in valuations.",
         ],
         markdown=True,
         debug_mode=True,
@@ -44,7 +50,7 @@ def caseEvaluationAG(prompt):
 
     # Case Strategy Advisor Agent
     caseStrategyAdvisor = Agent(
-        name = "Case Strategy Advisor Agent",
+        name="Case Strategy Advisor Agent",
         model=Gemini("gemini-2.0-flash"),
         description="You are a specialized legal assistant focused on legal case strategy",
         instructions=[
@@ -54,7 +60,7 @@ def caseEvaluationAG(prompt):
             "Recommend strategic motions and filings appropriate to the case.",
             "Anticipate likely opposing strategies and suggest counter-approaches.",
             "Identify key decision points in the litigation process.",
-            "Suggest appropriate alternative dispute resolution options when relevant."
+            "Suggest appropriate alternative dispute resolution options when relevant.",
         ],
         markdown=True,
         debug_mode=True,
@@ -62,7 +68,7 @@ def caseEvaluationAG(prompt):
 
     # Expert Witness Finder Agent
     expertWitnessFinder = Agent(
-        name = "Export Witness Finder Agent",
+        name="Export Witness Finder Agent",
         model=Gemini("gemini-2.0-flash"),
         description="You are a specialized legal assistant focused on expert witness selection",
         instructions=[
@@ -72,7 +78,7 @@ def caseEvaluationAG(prompt):
             "Suggest areas of testimony where expert opinions would be most valuable.",
             "Identify potential challenges to expert witness credibility.",
             "Provide guidance on expert witness report requirements.",
-            "Suggest strategies for effective expert witness preparation."
+            "Suggest strategies for effective expert witness preparation.",
         ],
         markdown=True,
         debug_mode=True,
@@ -80,7 +86,7 @@ def caseEvaluationAG(prompt):
 
     # Client Intake Analyzer Agent
     clientIntakeAnalyzer = Agent(
-        name = "Client Intake Analyzer Agent",
+        name="Client Intake Analyzer Agent",
         model=Gemini("gemini-2.0-flash"),
         description="You are a specialized legal assistant focused on initial case assessment",
         instructions=[
@@ -90,7 +96,7 @@ def caseEvaluationAG(prompt):
             "Identify potential jurisdictional and venue issues.",
             "Flag urgent deadlines or statute of limitations concerns.",
             "Recognize potential conflicts of interest from initial information.",
-            "Organize client information in a structured format for attorney review."
+            "Organize client information in a structured format for attorney review.",
         ],
         markdown=True,
         debug_mode=True,
@@ -106,7 +112,7 @@ def caseEvaluationAG(prompt):
             settlementValueCalculator,
             caseStrategyAdvisor,
             expertWitnessFinder,
-            clientIntakeAnalyzer
+            clientIntakeAnalyzer,
         ],
         show_tool_calls=True,
         markdown=True,
@@ -122,13 +128,13 @@ def caseEvaluationAG(prompt):
             "Always include a brief explanation of why you routed to a particular agent.",
             "If a user query doesn't fit within these categories, politely explain the team's capabilities and suggest rephrasing.",
             "Always remind users that these agents provide informational analysis only and not legal advice.",
-            "Request additional case details when information provided is insufficient for proper routing."
+            "Request additional case details when information provided is insufficient for proper routing.",
         ],
         show_members_responses=True,
     )
 
-    response = caseEvaluationTeam.run(prompt)
-    print(response.content)
+    response = caseEvaluationTeam.run(enhancedPrompt)
+    return response.content
 
 
 # # Question for the Litigation Probability Assessor

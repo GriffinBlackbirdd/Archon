@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Archon AI - Legal Assistant</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', path='/css/styles.css') }}"
+    />
+  </head>
+  <body>
+    <!-- Background Elements -->
+    <div class="background">
+      <div class="grid-overlay"></div>
+      <div class="blur-overlay"></div>
+    </div>
+
+    <!-- Main Container -->
+    <div class="container">
+      <!-- Sidebar -->
+      <aside class="sidebar">
+        <div class="logo-container">
+          <div class="logo">
+            <i class="fas fa-scale-balanced"></i>
+            <span>ARCHON</span>
+          </div>
+          <div class="subtitle">LEGAL AI</div>
+        </div>
+
+        <nav class="navigation">
+          <ul>
+            <li class="active">
+              <i class="fas fa-gavel"></i>
+              <span>Legal Analysis</span>
+            </li>
+            <li>
+              <i class="fas fa-file-contract"></i>
+              <span>Document Review</span>
+            </li>
+            <li>
+              <i class="fas fa-paragraph"></i>
+              <span>Case Evaluation</span>
+            </li>
+            <li>
+              <i class="fas fa-bolt"></i>
+              <span>Quick Summary (Experimental)</span>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="user-profile">
+          <div class="user-avatar">
+            <img
+              src="/static/img/avatar.png"
+              alt="User Avatar"
+              onerror="this.src='/static/img/default-avatar.png'"
+            />
+          </div>
+          <div class="user-info">
+            <div class="user-name">Jane Doe, Esq.</div>
+            <div class="user-status">Premium Account</div>
+          </div>
+          <div class="user-menu">
+            <i class="fas fa-ellipsis-vertical"></i>
+          </div>
+        </div>
+      </aside>
+
+      <!-- Main Content -->
+      <main class="main-content">
+        <header class="header">
+          <div class="current-tool">
+            <i class="fas fa-gavel"></i>
+            <h1>Legal Analysis</h1>
+          </div>
+          <div class="header-actions">
+            <button class="btn btn-secondary">
+              <i class="fas fa-file-export"></i>
+              <span>Export</span>
+            </button>
+            <button class="btn btn-primary">
+              <i class="fas fa-plus"></i>
+              <span>New Analysis</span>
+            </button>
+          </div>
+        </header>
+
+        <div class="chat-container">
+          <div class="chat-messages">
+            <div class="message system">
+              <div class="message-content">
+                <p>
+                  Welcome to Archon AI Legal Assistant. How can I help you with
+                  your legal matters today?
+                </p>
+              </div>
+              <div class="message-time">10:30 AM</div>
+            </div>
+
+            <div class="message user">
+              <div class="message-content">
+                <p>
+                  I need help analyzing a contract for potential issues with the
+                  indemnification clause.
+                </p>
+              </div>
+              <div class="message-time">10:31 AM</div>
+            </div>
+
+            <div class="message ai">
+              <div class="message-avatar">
+                <i class="fas fa-scale-balanced"></i>
+              </div>
+              <div class="message-content">
+                <p>
+                  I'd be happy to help analyze your indemnification clause.
+                  Please provide the contract or the specific clause you're
+                  concerned about, and I'll identify potential issues and
+                  suggest improvements.
+                </p>
+                <p>Some common issues with indemnification clauses include:</p>
+                <ul>
+                  <li>
+                    Overly broad language that creates unlimited liability
+                  </li>
+                  <li>Lack of proportionality or causation requirements</li>
+                  <li>
+                    Missing caps or exclusions for certain types of damages
+                  </li>
+                  <li>Ambiguous triggering conditions</li>
+                </ul>
+              </div>
+              <div class="message-time">10:32 AM</div>
+              <div class="message-actions">
+                <button class="action-btn"><i class="fas fa-copy"></i></button>
+                <button class="action-btn">
+                  <i class="fas fa-bookmark"></i>
+                </button>
+                <button class="action-btn">
+                  <i class="fas fa-thumbs-up"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="chat-input-container">
+            <div class="input-tools">
+              <button class="tool-btn"><i class="fas fa-paperclip"></i></button>
+              <button class="tool-btn">
+                <i class="fas fa-microphone"></i>
+              </button>
+              <button class="tool-btn"><i class="fas fa-image"></i></button>
+            </div>
+            <div class="chat-input-wrapper">
+              <textarea
+                class="chat-input"
+                placeholder="Type your legal question here..."
+              ></textarea>
+              <button class="send-btn">
+                <i class="fas fa-paper-plane"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <script src="{{ url_for('static', path='/js/script.js') }}"></script>
+  </body>
+</html>

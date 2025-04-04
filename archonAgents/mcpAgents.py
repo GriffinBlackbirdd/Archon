@@ -55,7 +55,7 @@ async def mcpAgent(message: str) -> None:
         # Run the agent
         # await agent.aprint_response(message, stream = True)
         result = await agent.arun(message)
-        print(result.content)
+        return result.content
 
 
 # if __name__ == "__main__":
