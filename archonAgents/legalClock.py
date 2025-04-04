@@ -8,7 +8,9 @@ from tzlocal import get_localzone_name
 
 def legalClock(prompt):
     agent = Agent(
-        model=Gemini("gemini-2.0-flash"),
+        model=Gemini(
+            "gemini-2.0-flash", api_key="AIzaSyCWznUz8cnPCkzJ6Bu9ikQGWF6kc-ZUu9k"
+        ),
         tools=[
             GoogleCalendarTools(
                 credentials_path="/Users/eagle/Developer/archon/archonX/archon/credentials.json",
