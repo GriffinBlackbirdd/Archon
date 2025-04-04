@@ -20,6 +20,8 @@ async def mcpAgent(message: str) -> None:
             str(root_dir),
         ],
     )
+
+    # Set up the second MCP server (hypothetical example, replace with actual second tool)
     server_params2 = StdioServerParameters(
         command="node",
         args=[
@@ -56,5 +58,5 @@ async def mcpAgent(message: str) -> None:
         print(result.content)
 
 
-if __name__ == "__main__":
-        asyncio.run(mcpAgent("I want a legal summary for the OQ agreement file."))
+# if __name__ == "__main__":
+#     asyncio.run(mcpAgent("I want a legal summary for the OQ agreement file."))
